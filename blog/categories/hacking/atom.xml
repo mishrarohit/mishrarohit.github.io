@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Hacking | Rohit Mishra]]></title>
+  <link href="http://mishrarohit.github.io/blog/categories/hacking/atom.xml" rel="self"/>
+  <link href="http://mishrarohit.github.io/"/>
+  <updated>2015-10-27T01:29:39+05:30</updated>
+  <id>http://mishrarohit.github.io/</id>
+  <author>
+    <name><![CDATA[Rohit Mishra]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[On Octopress]]></title>
+    <link href="http://mishrarohit.github.io/blog/2013/02/17/on-octopress/"/>
+    <updated>2013-02-17T13:18:00+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2013/02/17/on-octopress</id>
+    <content type="html"><![CDATA[<p>I have moved this blog to Octopress. <em>Test post</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Aaron Swartz]]></title>
+    <link href="http://mishrarohit.github.io/blog/2013/01/27/aaron-swartz/"/>
+    <updated>2013-01-27T10:34:04+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2013/01/27/aaron-swartz</id>
+    <content type="html"><![CDATA[<p><img src="http://farm3.staticflickr.com/2552/3835494997_edc2e1dc12.jpg" alt="Boston wiki meetup by ragesoss, on Flickr" /></p>
+
+<p><a href="http://en.wikipedia.org/wiki/Aaron_Swartz">Aaron Swartz</a> was not a name I would have recognized before his death. But, in the days since, I have read a lot on how this genius, who fought for public good, was <a href="http://lessig.tumblr.com/post/40347463044/prosecutor-as-bully">pushed to suicide</a> by the US Department of Justice. It has left me appalled, angry and disillusioned.</p>
+
+<p>Aaron was a hero. He was able to use technology for greater good. RSS, Reddit, Demand Progress - the group which campaigned against SOPA to name some of the more recognizable things with which he was associated. For someone like him to fall, for someone who had achieved so much and had the company of many illustrious people, it seeds so many doubts in one&rsquo;s mind. If someone like Aaron can be ensnared  by these unethical corrupt people, what should those of us with far lesser abilities do?</p>
+
+<p>There are two more things that make Aaron&rsquo;s case more painful for me.</p>
+
+<p>At my college, there was print as well as digital access to IEEE and ACM journals. For a reason I still don&rsquo;t understand, these journals could only be accessed from specific computers in the &ldquo;digital library&rdquo; and not from your machine. I know I had a privilege few others have even with this limited access. But, I still couldn&rsquo;t help but wonder why does IEEE or ACM need to charge me money for PDFs? All these papers have tons of citations. Why can&rsquo;t we browse though them as easily as one does at Wikipedia without paying money? Aaron Swartz thought similarly. He mass-downloaded academic articles, meant to be in public domain, from JSTOR and was charged with decades of imprisonment and millions of dollars  in fines for doing so. Aaron wished that everyone on internet should have access to this information. His method may have been wrong, but his intent wasn&rsquo;t. Sadly, this world treats those whose intent is wrong, but methods are right in a much better way.</p>
+
+<p>I wanted to go to MIT to do my bachelors, but wasn&rsquo;t selected. For as far back as I can remember, MIT has been the place for hackers, not just in CS. For this iconic organization to give up its ideals and call police/secret service on a guy who was downloading academic papers is heart-breaking. Was there no one at MIT who could have talked to Swartz, made their position clear and work with him on getting free access to research papers? Much before online courses became cool, MIT had launched OpenCourseWare back in 2002 to take its education to everyone. MIT&rsquo;s President has ordered an investigation in to its role in the Swartz incident to be led by Hal Abelson, one of the people behind OCW.</p>
+
+<p>I hope MIT comes clean on this.</p>
+
+<p>There is something I will personally do now to honor the memory of Swartz. I will build an option where users can export their data from Allotrop. The madness that is out there where one service specifically blocks another service from accessing its data is wrong.</p>
+
+<p>I will remember this hero in my thoughts and work for the change he sought.</p>
+
+<p>Here is the memorial video for Swartz held at the Internet Archive.</p>
+
+<p><a href="http://www.youtube.com/watch?v=x3Fz1V3LZtw">http://www.youtube.com/watch?v=x3Fz1V3LZtw</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Understanding Linked Data and Semantic Web]]></title>
+    <link href="http://mishrarohit.github.io/blog/2012/06/11/understanding-linked-data-and-semantic-web/"/>
+    <updated>2012-06-11T10:39:10+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2012/06/11/understanding-linked-data-and-semantic-web</id>
+    <content type="html"><![CDATA[<p>I have found the concept of linked data attractive. It seems like the right way to take the web forward. As part of brainstorming things for Allotrop, I wanted to understand the different components of  the semantic web.</p>
+
+<p>You should start with this TED talk by <a href="http://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a>.</p>
+
+<p><a href="http://www.youtube.com/watch?v=OM6XIICm_qo">http://www.youtube.com/watch?v=OM6XIICm_qo</a></p>
+
+<p>There is a free book available at <a href="http://www.linkeddatabook.com">linkeddatabook.com</a> which goes in the details of the various things that need to come together for linked data to work. It doesn&rsquo;t has any prerequisite, so if you want to get familiar with the idea of semantic web, then it is a good read.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Moving Wordpress From Dreamhost to Linode]]></title>
+    <link href="http://mishrarohit.github.io/blog/2012/04/16/moving-wordpress-from-dreamhost-to-linode/"/>
+    <updated>2012-04-16T08:04:25+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2012/04/16/moving-wordpress-from-dreamhost-to-linode</id>
+    <content type="html"><![CDATA[<p>I talked about the reasons to move to<a href="http://www.linode.com/?r=bcc2d975734b43800b9dd375fa8356d2dbd71cc8"> Linode</a> in <a href="http://www.rohitmishra.me/blog/2012/04/14/hello-linode/">my post</a> yesterday. Now, I will mention the resources I used to move my Wordpress blog over to Linode.</p>
+
+<p>You need to start by exporting your Wordpress database to a sql file . You can do it using phpMyAdmin.</p>
+
+<p>Next, you need to copy your wp-content folder using a FTP program like FileZilla.</p>
+
+<p>I then followed this <a href="http://www.raywenderlich.com/812/how-to-move-your-wordpress-blog-to-linode">excellent tutorial</a> for moving a Wordpress blog to Linode. This is a comprehensive tutorial which will guide you from the first step of signing up for Linode .</p>
+
+<p>There are some errors and typos in that tutorial that you should take care of.</p>
+
+<p>The correct syntax for importing your old wordpress database is</p>
+
+<pre><code>$ mysql -u username -p -h localhost Database-Name &lt; data.sql
+</code></pre>
+
+<p>If you have a dedicated database server, replace localhost hostname with with actual server name or IP address. If while creating the user for the database at mysql prompt, you didn&rsquo;t add the &ldquo; @localhost &rdquo; part, remove &ldquo; -h localhost&rdquo;.</p>
+
+<p>While editing wp-config.php, make sure that you enter the same prefix as in your old wordpress database in $WP_Prefix variable. You can find your old wp-prefix by examining the table names in your wordpress database.</p>
+
+<p>In the tutorial linked above, there is a mistake in <strong>#protect wpconfig.php</strong>. It should be:</p>
+
+<pre><code># protect wpconfig.php
+
+order allow, deny
+deny from all
+</code></pre>
+
+<p>The Wordpress specific settings depend on how you have setup your permalinks. You will find those settings at Settings->Permalinks in your Wordpress dashboard.</p>
+
+<p>If you are hosting your Wordpress blog in a sub-directory  like /blog, you should place your.htaccess file in /blog and not in /.</p>
+
+<p>The uploads folder should be <em>chmoded </em>to 775 and not 755.</p>
+
+<p>In this configuration, you won&rsquo;t be able to update Wordpress and its plugins from within the dashboard. Wordpress will prompt you to enter FTP credentials. Don&rsquo;t do that. The problem is that Wordpress runs under apache&rsquo;s username, which is www-data, and this user doesn&rsquo;t has permissions to write to your wordpress folder. The secure way is to do updates manually from the shell. If you want  to be able to do it from the DashBoard, you should refer to <a href="http://www.linode.com/irc/logs/linode-archive/linode.log-2011-03-12">this IRC log.</a></p>
+
+<p>Basically, before updating, you need to run</p>
+
+<pre><code>chown -R www-data /path/to/the/wordpress/install/on/your/filesystem/
+</code></pre>
+
+<p>Revert it back to the default user after updating.</p>
+
+<p>Hope these steps help you in moving Wordpress to Linode. If there is anything that I am doing wrong, do point out in the comments.</p>
+
+<p>If you are feeling great, please signup to Linode using <a href="http://www.linode.com/?r=bcc2d975734b43800b9dd375fa8356d2dbd71cc8">my referral link</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Laptop Buying Advice for Web and Mobile Hackers]]></title>
+    <link href="http://mishrarohit.github.io/blog/2012/01/11/laptop-buying-advice-for-web-and-mobile-hackers/"/>
+    <updated>2012-01-11T06:16:52+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2012/01/11/laptop-buying-advice-for-web-and-mobile-hackers</id>
+    <content type="html"><![CDATA[<p>There is a post on the<a href="http://37signals.com/svn/posts/3074-windows-to-mac-to-windows-to-mac-to-linux-it-doesnt-matter"> 37Signals blo</a>g saying how the choice of operating system doesn&rsquo;t matter much for a hacker. Unless you have another machine for you, I don&rsquo;t agree to this. I am currently developing on Linux and looking to switch to a Mac. Linux is a great environment to hack but the problem with Linux is its utter lack of apps. Designers won&rsquo;t touch it because of lack of Adobe CS. The Skype client is horrible. I have shifted to Google Docs, but is no match to Office right now. Rhythmbox was very basic and Banshee, the new default on Ubuntu, is extremely slow and poorly-designed. Forget about using apps like Evernote, or getting a native Spotify app.</p>
+
+<p>Ubuntu is the most popular Linux distro and I will talk about it. The intent behind shifting to Unity may be good, but it is a pain. Switching between windows is a nightmare. Not to say, that stability has gone for a toss. On my current machine with 2 GB of RAM, Ubuntu 11.10 is slow. (<em>Its a highly relative term, but we do understand what slow is - laggy, unresponsive etc)Â </em></p>
+
+<p>Plus, hardware support is still a huge issue. Hibernate never works for me on Ubuntu. And I have spent countless hours making the new &lsquo;zero-cd&rsquo; style usb internet dongles work, without much success.</p>
+
+<p>Unless one is developing on something which requires Windows, or is a huge gaming fan, you should avoid Windows. It will have no or lesser support for various projects especially in web development, because most of the community has shifted to Mac and Linux.</p>
+
+<p>For mobile programming, Mac is a clear winner. iOS programming needs a Mac and you can code on Android and Windows Phone too, by installing Windows on it. On Linux and Windows, you are cut off from the most important mobile ecosystem.</p>
+
+<p>Mac will be expensive compared to a similar configuration machine from the likes of Dell and Lenovo. But if you can afford it, go for a Mac. While you are doing your work, you want to focus on that.</p>
+
+<p>There is a disclaimer. Some hackers like to tinker around with the OS at the hardware level. Or see and get involved with the innards of operating system. For such people, Linux is a boon. You are not going to learn more at any other place than Linux. It is up to you to decide whether you are such a hacker.</p>
+
+<p>Right now, I will recommend the 13 inch Macbook Air for the general use case. There are rumors of a larger Macbook Air coming, so you may want to wait for that.</p>
+]]></content>
+  </entry>
+  
+</feed>

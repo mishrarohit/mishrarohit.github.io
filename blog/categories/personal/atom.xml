@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Personal | Rohit Mishra]]></title>
+  <link href="http://mishrarohit.github.io/blog/categories/personal/atom.xml" rel="self"/>
+  <link href="http://mishrarohit.github.io/"/>
+  <updated>2015-10-27T01:29:39+05:30</updated>
+  <id>http://mishrarohit.github.io/</id>
+  <author>
+    <name><![CDATA[Rohit Mishra]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[End of Allotrop]]></title>
+    <link href="http://mishrarohit.github.io/blog/2014/02/25/end-of-allotrop/"/>
+    <updated>2014-02-25T00:02:00+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2014/02/25/end-of-allotrop</id>
+    <content type="html"><![CDATA[<p>Despite my best efforts, <a href="https://allotrop.com">Allotrop</a> has not been able to attract enough user activity. So, after about 18 months of pursuing this dream, I have decided to move on. The product will stay online for the near future, but I will stop working on it.</p>
+
+<p>I will write a more detailed post on what led me to Allotrop and the things I tried to make it work shortly.</p>
+
+<p>I am extremely thankful to everyone who visited Allotrop and supported me online and offline. I also want to thank my family, especially my father who bankrolled my expenses for the past couple of years. I wish I had more to show for the faith he put in me. I am also extremely lucky to have a girlfriend who has often been the first person to try a new feature I developed and has helped me through all the lows of the past couple of years.</p>
+
+<p>Death by obscurity is one of the worst ways for a startup to go down. I would have preferred being beaten comprehensively by a better product. But, we do not chose how we die, do we?</p>
+
+<p>I will look for a full-time employment or freelance work now. I will also use this time to try out some new things I have not been able to play with for lack of time. Client side MVC frameworks, Scala, Go, Clojure, Node, iOS 7 and Android 4.4. I hope the delight of learning something new will tide over this gloom of failure.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Long Term Relevance Issue of Life Logging Apps]]></title>
+    <link href="http://mishrarohit.github.io/blog/2014/01/12/the-long-term-relevance-issue-of-life-logging-apps/"/>
+    <updated>2014-01-12T15:42:00+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2014/01/12/the-long-term-relevance-issue-of-life-logging-apps</id>
+    <content type="html"><![CDATA[<p><em>Jan 12, 2014 -  Bombay</em></p>
+
+<p>Half of January is done. Years back, this was the time when the first chinks in my annual resolution of &ldquo;<em>Lets start writing a journal</em>&rdquo; would begin. As much as I wished, I have never had an year where I wrote a journal even for 100 days in a year. I tried a lot to entice me to writing one. But, even getting hold of one of the fancy diaries that was gifted to my Dad and a Parker pen weren&rsquo;t enough. I should have known better. You do not start playing guitar by buying an expensive goo looking one.</p>
+
+<p>This finally changed in April 2012 when I got hooked to <a href="http://www.idonethis.com">iDoneThis</a>. It is originally supposed to be used to log the things that you got done that day. They send you an email once a day at a time you set and you can reply back to the mail, one task per line. I started using it to track my progress on <a href="https://allotrop.com">Allotrop</a>, but soon started using it as a journal. I did not reply to that email everyday, but took care to remember what I had done on a particular day and enter it. The fact that this was the time when I had started working on Allotrop meant that most of my days could be easily  retraced using <code>git log</code> and checking my Chrome history. I managed a continuous streak of over 550 days from April 2012 to October 2013.</p>
+
+<p>But, this was no journal. It was not a complete representation of what I was thinking about that day. I wanted something which imported data from various social networks and had an ability to add notes. Once I found this <em>magical</em> app, the plan was to import the exported CSV file from iDoneThis in to this.</p>
+
+<p>Soon I discovered <a href="http://dayoneapp.com/">Day One</a>  It is beautiful and very close to what I wanted. By this time, I had a Mac and the Day One Mac app was for $10. I like these paid apps which have a clear business model. But, there were a couple of hindrances:</p>
+
+<p>DayOne did not have and still has not got an Android app. I use a Samsung Galaxy S2 and was used to write my iDoneThis emails on my phone. This was not a major concern because I could always write on phone in something like Evernote and import to DayOne on Mac. Also, I had seen DayOne recruitment ads for Android engineers, so I knew they were working on it. But, there still isn&rsquo;t a DayOne app on Play Store.</p>
+
+<p>My second issue was much more generic. I had seen DayOne export options and they only offer PDFs. I had seen <a href="http://www.ted.com/talks/tim_berners_lee_on_the_next_web.html">Tim Berners-Lee&rsquo;s talk</a> on the importance of linked data, and how difficult extracting data from PDFs can be. But really, did I expect DayOne to give out JSON?</p>
+
+<p>Why focus so much on export?</p>
+
+<p>Twitter and Facebook have an option to get full dumps of our data. I am not sure which format these dumps are in and how usable they are. But, due to the sheer size of their user base, there will always be people who would be interested to work on tools to translate their dumps to a more usable form.</p>
+
+<p>But, neither DayOne or any other journal app has that size of an audience. I fear that my data will get locked in their proprietary format. I am comfortable with my Facebook and Twitter data being locked, but I want my journal to be around 30-40 years from now. How many tech companies survive for that long? Another way to think about this is that most of the time that we spend on the web goes in creating and interacting with ephemeral content stored in complex formats. I want something simple with the guarantee of permanence.</p>
+
+<p>This is similar to the question of should one write on <a href="https://medium.com">Medium</a> or on your own site. Andrew Chen <a href="http://quibb.com/links/is-it-better-to-write-on-medium-or-on-your-own-blog">had a good  comment</a> on this:</p>
+
+<blockquote><p>Personally I think it&rsquo;s better to write on your own blog so that you can own your audience long term. Who knows where medium will be in 5 or 10 years, and over time I&rsquo;ve come to think of writing and audience building as a lifetime endeavour. That said, it&rsquo;s a good way to get started. Quora too.</p></blockquote>
+
+<p>Evan Williams is a phenomenal creator - from Blogger to Twitter to Medium now. As much as I love the writing experience of Medium, I have already taken this site once from Blogger to Wordpress to Jekyll/Octopress. I do not want to do that again.</p>
+
+<p>I wonder how this will translate to the Quantified Self movement. The wearables are getting smarter and soon they will make the jump from being like twitter to becoming our journal. The data they will gather may become an important tool for doctors in diagnosing and recommending treatments to their patients. This data will be too valuable to be tied with the fortunes of a particular company. I hope the likes of Jawbone/Fitbit/<a href="http://www.theverge.com/2014/1/8/5287800/spec-sheet-ces-2014-wearables-sensors">every other company</a> which demoed a wearable at CES can sit down and thrash out a common format.</p>
+
+<p>I have these concerns about other digital things too. This is what I <a href="http://instagram.com/p/Ks9duekRXy/">posted on Instagram</a> a couple of years back when I was in college.</p>
+
+<blockquote><p>My Dad purchased this book more than 30 years ago. That is what I fear about buying books on Kindle or iBooks. Will Kindle or Amazon be relevant of even exist after 30 years?</p></blockquote>
+
+<iframe src="//instagram.com/p/Ks9duekRXy/embed/" width="612" height="710" frameborder="0" scrolling="no" allowtransparency="true"> </iframe>
+
+
+<p>Despite these fears, I use Kindle for books. Maybe someday, I will be confident enough of an app to use it for journaling. In the meantime, there is a simple document in my Google Drive where these journal entries go.</p>
+
+<p>There is a new app called <a href="http://www.hey.co/">Heyday</a> which taps in to the various social networks and &lsquo;auto writes&rsquo; itself. I will give it a shot when it launches on Android, but its site has nothing on export options. Adding photos on Google Drive is not a joy, and Evernote works much better offline than Drive. I am wondering whether I should move to Evernote.</p>
+
+<p>My journal has not found its permanent home yet.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hello Linode]]></title>
+    <link href="http://mishrarohit.github.io/blog/2012/04/14/hello-linode/"/>
+    <updated>2012-04-14T09:13:33+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2012/04/14/hello-linode</id>
+    <content type="html"><![CDATA[<p>I have shifted to <a href="http://www.linode.com/?r=bcc2d975734b43800b9dd375fa8356d2dbd71cc8">Linode</a> from a <a href="http://www.dreamhost.com">Dreamhost</a> shared account. My Dreamhost account was up for renewal,  and I decided that this is a good time to switch to a <a href="http://en.wikipedia.org/wiki/Virtual_private_server">VPS</a> . There are a couple of reasons behind that. First, I want to get some hands-on experience running a server.  Second, Dreamhost doesn&rsquo;t play well with Django or Ruby (<em>anything except PHP, I guess), </em>which I need for my startup <a href="http://www.allotrop.com">Allotrop</a><em>.</em></p>
+
+<p>My option was to keep the blogs on Dreamhost and then use <a href="http://aws.amazon.com/">AWS</a> for my startup. Right  now, I am working alone on Allotrop, and I don&rsquo;t want to spend the extra hours learning to manage AWS. Over-optimization is one of the more common mistakes we do. I will shift to Ec2 when needed. Also, after doing a fair bit of research, I found out that a cloud service like AWS makes sense once you expect traction. Allotrop is a few months away from launch, and I won&rsquo;t spend any extra money than I absolutely need to.</p>
+
+<p>By the way, if you are just starting out, and want to find a cheap shared host for your Wordpress and class projects, go for <a href="http://www.webfaction.com/">WebFaction</a>. It has awesome support for Django, Rails and other application frameworks.</p>
+
+<p><a href="http://upload.wikimedia.org/wikipedia/en/1/1c/Linode_logo.png"><img src="http://upload.wikimedia.org/wikipedia/en/1/1c/Linode_logo.png" alt="Linode logo" /></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[VIT University Is Now on Google Calendar]]></title>
+    <link href="http://mishrarohit.github.io/blog/2011/09/23/vit-university-is-now-on-google-calendar/"/>
+    <updated>2011-09-23T02:07:11+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2011/09/23/vit-university-is-now-on-google-calendar</id>
+    <content type="html"><![CDATA[<p>As the number of student events and alumni meetings keep increasing, it is no longer viable to share all the posts on VIT&rsquo;s <a href="http://www.facebook.com/vituniversity">facebook page</a>Â without spamming the news feed of people who like the page. So, we have decided to share all the events using <a href="http://google.com/calendar">Google Calendar</a>. You can subscribe to the VIT calendar by going to <a href="https://www.google.com/calendar/b/0/embed?src=vitsocial@gmail.com&amp;ctz=Asia/Calcutta">this link</a>Â and clicking on the subscribe button in the bottom right corner. If you use any other calendar app like iCal, you can subscribe to the VIT calendar by using its iCal address -Â <a href="https://www.google.com/calendar/ical/vitsocial%40gmail.com/public/basic.ics">https://www.google.com/calendar/ical/vitsocial%40gmail.com/public/basic.ics</a></p>
+
+<p>All event organizers are henceforth requested to send their event information at <a href="mailto:vitsocial@gmail.com">vitsocial@gmail.com</a>Â If you have any queries, you can send me an <a href="mailto:%20rohit@rohitmishra.me">email</a> or <a href="http://facebook.com/rohitmishra">facebook</a> or <a href="http://twitter.com/movingahead">twitter </a>for any clarification.</p>
+
+<p>One more thing, one of the major attractions of Google Calendar is how well it works on mobile. Do try Google Calendar on your phone.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Recharge It Now and Online Recharge Fraud]]></title>
+    <link href="http://mishrarohit.github.io/blog/2011/03/06/recharge-it-now-and-recharge-fraud/"/>
+    <updated>2011-03-06T01:14:53+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2011/03/06/recharge-it-now-and-recharge-fraud</id>
+    <content type="html"><![CDATA[<p>If you have ever tried recharging your phone/DTH online, you are aware of this story. The operators themselves don&rsquo;t have facilities to recharge. Tata Sky has a tough process as far as I remember. Airtel had a good partnership with <a href="http://main.mchek.com/">M-Chek</a> which allowed you to recharge your phone using a SIM-based application and your credit card. However, <a href="http://blog.cleartrip.com/journal/2011/2/14/how-indias-banks-killed-the-future-of-commerce.html">RBI/Indian banks got pissed off</a> that Indians can have one proper way of online/mobile payments and introduced new rules that have basically made mobile transactionsÂ impossible.</p>
+
+<p>On February 10, I wanted to make an online recharge. I googled for <em><a href="http://www.google.com/webhp?sourceid=chrome-instant&amp;ie=UTF-8&amp;ion=1#sclient=psy&amp;hl=en&amp;safe=off&amp;site=webhp&amp;q=airtel%20online%20recharge&amp;aq=&amp;aqi=&amp;aql=&amp;oq=&amp;pbx=1&amp;bav=on.2,or.&amp;fp=3a3bce357d2ec0b1&amp;pf=p&amp;pdl=300">&ldquo;airtel online recharge&rdquo;</a></em> and the third site is <a href="http://www.rechargeitnow.com">rechargeitnow.com</a> (<em>The first two are links to airtel&rsquo;s m-chek pages). </em>Now anyone can tell me that this website looksÂ unprofessional, but in the rush of the moment I didn&rsquo;t notice it. I had heard about it on some other blogs and it had the mandatory Verisign secured logo. The transaction which used a Citibank payment gateway failed. That is nothing unusual. I got a mail shortly afterward from rechargeitnow</p>
+
+<blockquote><p>Dear Rohit,Thank you for usingÂ RechargeItNow.com to recharge your Mobile/DTH service.</p></blockquote>
+
+<p>Due to some technical reasons we are unable to deliver recharge to your
+subscriber id XXXXXXXXXX . We regret the inconvenience caused to you.</p>
+
+<p>We will process your transaction for a recharge or refund as per our refund policy. You will receive a mail intimation for the same.</p>
+
+<p>In case of a refund, amount should reflect in your account within 8 working days.</p>
+
+<p>&hellip;&hellip;.</p>
+
+<p>I have got pretty used to failed transactions and this was nothing new. I waited for 14 days, and nothing happened. So on February 24th, I went to their website where they had an &ldquo;Escalate Complaint&rdquo; option, which you can use only after the 8-day period. I again got an e-mail from them:</p>
+
+<blockquote><p>Hi Rohit Mishra</p></blockquote>
+
+<p>This is to confirm that we have received your &lsquo;escalation&rsquo; request as per the following details-</p>
+
+<p>Track Id: xxxxxxxxxx
+Name: Rohit Mishra
+Email: xxxxx<a href="mailto:rmishra.001@gmail.com">@gmail.com</a>
+Mobile No/DTH Subscriber ID recharged: xxxxxxxxx
+Date of transaction: 2011-02-10</p>
+
+<p>Escalation Team atÂ RechargeItNow.com will provide you a resolution as per process detailed below:</p>
+
+<ol>
+<li><p>Your pending complaint will be resolved and a mail sent to you within 2 working days (excluding Sundays &amp; holidays)</p></li>
+<li><p>If a clarification is required, you will receive a call or a mail from our support team within 2 working days on your registered mobile or email id.</p></li>
+</ol>
+
+
+<p>Regards,</p>
+
+<p>Escalation TeamÂ RechargeItNow.com</p>
+
+<p>Its been another 10 days and still I have heard nothing from them. Strangely, their entire website doesn&rsquo;t have one contact number. I have sent them another mail, but I am pretty sure I have lost my money. It is not only infuriating on a personal level, but what bothers me also is thatÂ fraudulentÂ websites like rechargeitnow lower customer confidence in online transactions even more, making it difficult for all the other clean players too.</p>
+
+<p>Share this post on Twitter/FB so that your acquaintances don&rsquo;t fall prey to this fraud website.</p>
+
+<p><strong>_Update : _ </strong>I finally got my refund on March 19. In the age of real-time web, taking 45 days to reverse a transaction that rechargeitnow knew of has gone wrong is unacceptable. I hope someone from their website reads this post and improves their refund mechanism. All the best to them.</p>
+]]></content>
+  </entry>
+  
+</feed>

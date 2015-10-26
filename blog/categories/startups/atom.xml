@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Startups | Rohit Mishra]]></title>
+  <link href="http://mishrarohit.github.io/blog/categories/startups/atom.xml" rel="self"/>
+  <link href="http://mishrarohit.github.io/"/>
+  <updated>2015-10-27T01:29:39+05:30</updated>
+  <id>http://mishrarohit.github.io/</id>
+  <author>
+    <name><![CDATA[Rohit Mishra]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Why Shutting Down Oink Is Not a Good Move]]></title>
+    <link href="http://mishrarohit.github.io/blog/2012/03/15/why-shutting-down-oink-is-not-a-good-move/"/>
+    <updated>2012-03-15T20:58:45+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2012/03/15/why-shutting-down-oink-is-not-a-good-move</id>
+    <content type="html"><![CDATA[<p><img src="http://tctechcrunch2011.files.wordpress.com/2011/11/oinkshot.png?w=192" alt="oinkshot" /><a href="http://www.oink.com">Oink</a> is a service, which lets you &ldquo;rate everything&rdquo;. Â Built by <a href="https://plus.google.com/u/0/110318982509514011806/posts">Kevin Rose</a>&rsquo;s (of Digg fame) <a href="http://milkinc.com/">Milk Labs</a>, Oink was launched in November, 2011. Rose&rsquo;s popularity drove the app to <a href="http://thenextweb.com/apple/2011/12/07/kevin-roses-oink-hits-150000-app-store-downloads-in-just-over-a-month/">150k </a>downloadsÂ by December.</p>
+
+<p>Today, Milk Labs announced that it is <a href="http://www.oink.com">closing down Oink </a>and that users can download the data.</p>
+
+<blockquote><p>We startedÂ <a href="http://milkinc.com/">Milk Inc.</a>Â (the company behind Oink) to rapidly build and test out new ideas. Oink was our first test and, in preparing to move onto the next project, we&rsquo;ve decided to shut it down to help focus our efforts.</p></blockquote>
+
+<p>There are a couple of problems:</p>
+
+<p>a) What can you do with the downloaded data? Can you put it in Foursquare, Foodspotting etc? Shouldn&rsquo;t Oink at least write some documentation for developers on how to use this data?</p>
+
+<p>b) Aren&rsquo;t we burning up users by asking them to rate things and then leaving them stranded after a few months? Rose&rsquo;s popularity will generate enough media that users will sign up for his next &ldquo;experiment&rdquo;, but how difficult does this make getting new users for a startup with non-celebrity founders.</p>
+
+<p>I am currently reading Eric Ries&#8217; [The Lean Startup](<a href="http://www.amazon.com/gp/product/0307887898/ref=as_li_ss_tl?ie=UTF8&tag=rohmissweb-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0307887898">The Lean Startup: How Today&rsquo;s Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses</a><img src="http://www.assoc-amazon.com/e/ir?t=rohmissweb-20&l=as2&o=1&a=0307887898" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> ) and I agree with his beliefs about going as fast as possible through the build-measure-learn cycle. But, Ries tells us to pivot if we learn that our idea is not working. I am not sure what Milk Labs is doing here.</p>
+
+<p>There is nothing unique about Milk Labs. Every startup wants to rapidly build and test new ideas. But, you also persevere with your startup. Work with your early adopters to improve the app. If you are so specific about just &lsquo;testing&rsquo; an idea, then I think they should have mentioned in bold letters, that this is an app for testing purposes only. Right now, Oink seems as if it was built for collecting data.</p>
+
+<p>I will start work onÂ <a href="http://www.allotrop.com">Allotrop</a>, which will lets user list the things that they love using, seeing, eating etc. I know many startups and established companies are doing similar things, but this is still an unsolved problem. So, I will do my best to solve this problem. Like every other startup, I will also pivot if what I build doesn&rsquo;t work. But, I will do my best to support my users because every second that they would have spent on Allotrop is precious. It means something.</p>
+
+<p>More than good examples, I look for bad examples. I decide that no matter what happens, I will never do something like this. For me, Oink&rsquo;s legacy will be of a bad example.</p>
+
+<p><strong>Update: </strong>In theÂ <a href="http://news.ycombinator.com/item?id=3704110">Hacker News thread</a> of the original announcement, many people have commended Rose for sticking to what he said and closing down Oink when it didn&rsquo;t get traction. They argue that investors invested their money in Milk Inc., the parent company and not Oink. That is sad about our time. We care more about investors&#8217; return than users. You don&rsquo;t build a startup for investors&#8217; returns. You build it for solving your users&#8217; problems and giving them a great experience. I strongly recommend reading <a href="http://www.nytimes.com/2012/03/14/opinion/why-i-am-leaving-goldman-sachs.html">this post</a> by ex-Goldman Sachs executive Greg Smith on why he left the investment firm.</p>
+
+<p><em>Tip: <a href="http://news.ycombinator.com/item?id=3704110">Hacker News</a>Â </em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Why Viral Invite Systems Suck]]></title>
+    <link href="http://mishrarohit.github.io/blog/2012/02/18/why-viral-invite-systems-suck/"/>
+    <updated>2012-02-18T04:11:38+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2012/02/18/why-viral-invite-systems-suck</id>
+    <content type="html"><![CDATA[<p>There is a growing trend for websites to ask us to invite our friends and followers to their web app, so that we can be bumped ahead in their early access queue. It is called the viral-invite system, which was probably <a href="http://blog.forkly.com/post/2341870004/a-viral-launching-soon-form">started by Forkly</a>. Heck, Launchrock built a startup out of <a href="http://launchrock.com/blog/can-a-startup-launch-itself">this idea</a>. I am glad that Launchrock has been successful and will probably use it to create a better landing page for my own startup, <a href="http://www.allotrop.com">Allotrop</a>.</p>
+
+<p>But, I don&rsquo;t like the idea that startups make us push for them before even letting us see a sneak peek of their product. I thought I am the only one who feels so, but then I read about Eric Ries&#8217; experience at IMVU in his book <a href="http://www.amazon.com/gp/product/0307887898/ref=as_li_ss_tl?ie=UTF8&amp;tag=rohmissweb-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=0307887898">The Lean Startup</a><img src="http://www.assoc-amazon.com/e/ir?t=rohmissweb-20&amp;l=as2&amp;o=1&amp;a=0307887898" alt="" />.</p>
+
+<p>Context: IMVU had called a 17-year old girl to their office to try out their product. She liked building a 3D avatar of herself, and then they got her to download an IM client.</p>
+
+<p><em>Excerpt from the bookÂ </em></p>
+
+<blockquote><p>&ldquo;Okay, invite one of your friends to chat.&rdquo; And she says, &ldquo;No way!&rdquo; We say, &ldquo;Why not?&rdquo; And she says, &ldquo;Well, I don&rsquo;t know if this thing is cool yet. You want me to risk inviting one of my friends? What are they going to think of me? If it sucks, they are going to think I suck, right?&rdquo; And we say, &ldquo;No, no, it&rsquo;s going to be so much fun once you get the person in there; it&rsquo;s a social product.&rdquo; She looks at us, her face filled with doubt; you can see that this is a deal breaker.</p></blockquote>
+
+<p>Let me use your app. If it is good, I will ask my friends and followers to join voluntarily. Till then, I am happy at the back of the early access queue.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Story Behind Neoforma.com]]></title>
+    <link href="http://mishrarohit.github.io/blog/2009/03/22/the-story-behind-neoforma-com/"/>
+    <updated>2009-03-22T15:01:00+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2009/03/22/the-story-behind-neoforma-com</id>
+    <content type="html"><![CDATA[<p><a href="http://2.bp.blogspot.com/_djcir2GI86Q/ScYPX-d-hfI/AAAAAAAAAJs/_wECAAxfFUk/s1600-h/starting+something.png"><img src="http://2.bp.blogspot.com/_djcir2GI86Q/ScYPX-d-hfI/AAAAAAAAAJs/_wECAAxfFUk/s320/starting+something.png" alt="" /></a><br/>
+Browsing through the &ldquo;World Trade&rdquo; section of <a href="http://www.vit.ac.in">VIT</a> library, I was looking for C.K.Prahalad&rsquo;s famous &ldquo;The Fortune at the Bottom of the Pyramid&rdquo;. To my despair, someone had misplaced that book. Disappointed, I glanced over the adjacent Entrepreneurship section - a permanent favorite. I found <a href="http://www.ravel.tv/startingsomething.html">&ldquo;Starting Something&rdquo;</a> by <a href="http://www.linkedin.com/ppl/webprofile?action=vmi&amp;id=38796802&amp;authToken=767B&amp;authType=name&amp;trk=ppro_viewmore&amp;lnk=vw_pprofile">Wayne McVicker</a>&ndash; a strange name. I thought it will be a &lsquo;how-to&rsquo; book on starting a company. It turned out to be a biography of the founder of a Silicon Valley &lsquo;dotcom&rsquo; company &ndash; Neoforma.com I had read a lot about dotcom companies and their bust, so I picked it up to know something more about it.</p>
+
+<p>As I started reading it, one thing instantly became clear. This book was not about Wayne McVicker; it was about Neoforma.com - a company that he had co-founded with his friend Jeff. The book showed how two people passionate about a business opportunity went on to make a company worth $ 3 billion in 4 years battling against the mightiest Venture Capital firm &ndash; <a href="http://www.kpcb.com/">Kliener Perkins</a>. Starting Something has all characters &ndash; good, bad and nasty, but all of them come across as very real. It gives us an unflinching look into both the drak and bright sides of corporate culture &ndash; where dreams are fulfilled and the best of friendships are broken. Denis Coleman &ndash; founder of Symantec Corporation (the makers of the very popular Norton Antivirus sums up the book</p>
+
+<blockquote><p>A must read for aspiring entrepreneurs. It took me years in the trenches building Symantec to learn the people-side lessons so freely elucidated by McVicker - and unfortunately not yet taught in business schools.</p></blockquote>
+
+<p>&ndash; that is how deep the book goes in exploring the importance of people in the success of a business.</p>
+
+<p>The book is divided into numerous small chapters of 4 to 5 pages generally. That gives fluidity to the story &ndash; the events register their presence, but it becomes clear that no single event can become the center-piece of the narrative.</p>
+
+<p>Wayne McVicker and his friend Jekk Kleck weren&rsquo;t the typical Silicon Valley entrepreneurs &ndash; both were in their late thirties with a family to care for. Like most other founder pairs, Wayne and Jeff weren&rsquo;t the best of friends from the outset. But, both strongly believed in the concept of better flow of information to buyers &ndash; in this case hospitals. They wanted to provide all possible information about the large medical equipments as well as numerous small products that occupy hospital rooms. As their belief in the usability and importance of the idea grew with time, they ran into confrontation with their bosses at <a href="http://www.varian.com">Varian </a>&ndash; their present company. As Varian resisted, Jeff and Wayne proposed to carve out a spin-off from Varian. Though successful , they were taken aback to see the bickering and hateful corporate environment under which they left the company they had been working for years.</p>
+
+<p>The book moves on to show how Neoforma discovered internet and realized the immense potential of the medium. As the company grew, Wayne explains his dilemma in hiring new people- which continues even as Neoforma transformed into a behemoth. He concludes that the single most important factor is the actual fit between the company and the employee.</p>
+
+<p>Starting Something is not only about the business part of it. As Wayne and his wife Anni put every piece of their asset on mortgage for Neoforma with 2 young children to care for, Wayne describes the emotional tug-of-war  he went through while eliminating their complete security putting their entire lives on the fate of Neoforma.</p>
+
+<p>The book is also about people &ndash; from Jack (their warm attorney) to Wally and Shawn (their angel investors) To Alexander, JP and Bret (their VCs) Wayne explicitly highlights his ambivalence about venture capitalists &ndash; the people who care only about one single thing - making money and making it fast.</p>
+
+<p>Throughout the book, Wayne never makes an attempt to cover-up his emotions. How he felt uncomfortable from being a founder to donning the role of an investor in the company that he had made himself. He also discusses his insecurity as Neoforma changes from CDROMs to a complex website - a technology he was unfamiliar with.</p>
+
+<p>The book&rsquo;s richness comes from the part where Wayne analyzes his own actions - why he pursued a particular deal, why he was adamant to hire a particular man to why he considered himself completely unsuitable in running Neoforma in the long run.</p>
+
+<p>You will fell that the narrative becomes similar to a movie as the nook proceeds &ndash; not flashy in t he same way but with similar ulterior motives and huge drama at play.</p>
+
+<p>After a successful IPO and a severe crash in share prices, Wayne realized that Neoforma had outgrown him. He moves on to found <a href="http://www.attania.com">Attania</a> &ndash; but not with the same intensity as Neoforma. That intensity is now for his family.</p>
+
+<p>Overall a higly recommended read. You will love the truth and reality of the story.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Lack of Entrepreneurship in India -- Whats Wrong?]]></title>
+    <link href="http://mishrarohit.github.io/blog/2009/02/21/lack-of-entrepreneurship-in-india-whats-wrong/"/>
+    <updated>2009-02-21T00:58:00+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2009/02/21/lack-of-entrepreneurship-in-india-whats-wrong</id>
+    <content type="html"><![CDATA[<p><a href="http://twitter.com/anadgouda">Abhijit Nadgouda</a> has written a great post on what is ailing entrepreneurship to really catch-up in Indian colleges. What started as a comment to his post became a full-fledged post of my own.</p>
+
+<p>Being in a college, I can really identify with his views. Outsourcing and thus the not-so-difficult placement has killed all initiative in Indian engineering colleges. TCS took more than 1000 freshers from my college <a href="http://www.vit.ac.in">VIT</a>, Vellore last year. The focus on placements and jobs is really depressing. The only thing that people bother about is the package that company XYZ offered at college ABC. Plus, it is not that these companies offer great packages. My college&rsquo;s average package was about Rs. 300,000, which is not what one should think of as their ultimate goal in life.Also, the only route that people think of doing good in life is by having an MBA. Wished they can focus more on engineering (not on the outdated curriculum, but the newer technologies).</p>
+
+<p>I am a member of the Entrepreneurship Cell at my college. We encourage entrepreneurial activities at our college &ndash; and our most successful initiative has been organizing an <a href="http://occ-vellore.ning.com">Open Coffee Club chapter at Vellore</a>. The two meets of OCC Vellore drew people out of their shells and they came out to express ideas openly. I am personally averse to the traditional business plan competitions because of two reasons:<br/>
+1. I am from the Steve Wozniak school of thought that says that no one but the market  can decide whether a product is viable or not. (and he has personal experience to back this)<br/>
+2. A business plan competition creates 3 or 10 heroes but leaves the rest disappointed. They get nothing but a feeling that their idea lacks something. Can anyone of you quote a number that how many business plan winners have gone out to have successful ventures? I haven&rsquo;t seen many. We need to come out with a better model of business plan, where we don&rsquo;t judge ideas but just give them all possible support. This doesn&rsquo;t sound convincing, but this is something that all ECells have to work on. This view also came up at the Global Conference of ECells at IIT Bombay that I attended a couple of weeks back where Manik Singh, TiE Charter Member of Bombay raised it.</p>
+
+<p>I have my own entrepreneurial plans but promoting entrepreneurship among my peers is also very close to my heart. Maybe, my success can help people realize that taking risk and initiative even in the first year of your engineering can pay off!!</p>
+
+<p>If any of you have any suggestions or want to help us here at VIT in promoting entrepreneurship, do drop a comment or a <a href="http://twitter.com/movingahead">tweet</a>. Not all entrepreneurs will come from IITs.</p>
+
+<p>(I got the link of this post from ET&rsquo;s <a href="http://twitter.com/powerofideas">Power of Ideas</a>, and this post has been itself written as a comment to Sramana Mitra&rsquo;s <a href="http://www.sramanamitra.com/2009/02/03/entrepreneurship-in-india-2/">very popular post</a> on the same topic.)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Dorai Thodla in VIT]]></title>
+    <link href="http://mishrarohit.github.io/blog/2008/12/19/dorai-thodla-in-vit/"/>
+    <updated>2008-12-19T01:37:00+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2008/12/19/dorai-thodla-in-vit</id>
+    <content type="html"><![CDATA[<p>On Monday, <a href="http://www.dorai.wordpress.com">Dorai Thodla</a> &ndash; the founder of <a href="http://www.imorph.com">IMorph</a> Inc. came to VIT. (I have wondered how VIT manages to get some good people here considering their bureaucratic working style!! As a part of E-Cell, (its a club to promote entrepreneurship here I am  actively involved in the club and so played a part in organizing the meet. I googled Dorai and found out about him, IMorph and <a href="http://www.infominder.com">InfoMinder</a>. I was a bit skeptical about how useful his flagship product InfoMinder will be, which is basically a tool to track changes throughout your chosen pages on the web. I thought that RSS feeds serve basically the same purpose. In the first session, Dorai talked about his life for our &ldquo;Life as an Entrepreneur&rdquo;  lecture series. The man had already impressed me because of his accounts on Twitter, Friendfeed etc. &ndash; as he seemed to be in touch with the latest trends. As he spoke about his urge to constantly remain on top of all the technology news, I could easily identify with him. Dorai understood how boring abig moral talk can get and kept it simple, easy and interactive. The way successful people talk easily about their failures easily. Dorai told us about a presentation that he had to abruptly step into at the last moment unprepared and how his shaking hands sent the old-style presentation into a spin. <br/>
+I was happy to find equal angst and support from him about the lack of consumer software work taken by the Indian IT biggies. He encouraged people to take risks and start making useful apps &ndash; and I was silently feeling proud about my life goals of being an entrepreneur and about the mobile &ldquo;noticeboard&rdquo; software that I am working on.<br/>
+Dorai had another session post-lunch (not for me though. IEEE, ECell, poor mess have made me miss lunch repeatedly The second session was more technical, and I loved the importance on trends that he spoke of. As he took names like Digg, StumbleUpon, semantic web&hellip; I felt whether this would inspire people to wake up from their movie downloads and explore the wider web. But, I am not very positive.</p>
+
+<p>I wanted to discuss with Dorai my idea about the mobile &ldquo;noticeboard&rdquo; project that I call DNS and get his views on the idea. But he was going to Bangalore for the TiE Entrepreneurial Summit. I wanted to be there desperately. A lot of my work would be derived from this person now for sure.</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Technology | Rohit Mishra]]></title>
+  <link href="http://mishrarohit.github.io/blog/categories/technology/atom.xml" rel="self"/>
+  <link href="http://mishrarohit.github.io/"/>
+  <updated>2015-10-27T01:29:39+05:30</updated>
+  <id>http://mishrarohit.github.io/</id>
+  <author>
+    <name><![CDATA[Rohit Mishra]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[The Long Term Relevance Issue of Life Logging Apps]]></title>
+    <link href="http://mishrarohit.github.io/blog/2014/01/12/the-long-term-relevance-issue-of-life-logging-apps/"/>
+    <updated>2014-01-12T15:42:00+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2014/01/12/the-long-term-relevance-issue-of-life-logging-apps</id>
+    <content type="html"><![CDATA[<p><em>Jan 12, 2014 -  Bombay</em></p>
+
+<p>Half of January is done. Years back, this was the time when the first chinks in my annual resolution of &ldquo;<em>Lets start writing a journal</em>&rdquo; would begin. As much as I wished, I have never had an year where I wrote a journal even for 100 days in a year. I tried a lot to entice me to writing one. But, even getting hold of one of the fancy diaries that was gifted to my Dad and a Parker pen weren&rsquo;t enough. I should have known better. You do not start playing guitar by buying an expensive goo looking one.</p>
+
+<p>This finally changed in April 2012 when I got hooked to <a href="http://www.idonethis.com">iDoneThis</a>. It is originally supposed to be used to log the things that you got done that day. They send you an email once a day at a time you set and you can reply back to the mail, one task per line. I started using it to track my progress on <a href="https://allotrop.com">Allotrop</a>, but soon started using it as a journal. I did not reply to that email everyday, but took care to remember what I had done on a particular day and enter it. The fact that this was the time when I had started working on Allotrop meant that most of my days could be easily  retraced using <code>git log</code> and checking my Chrome history. I managed a continuous streak of over 550 days from April 2012 to October 2013.</p>
+
+<p>But, this was no journal. It was not a complete representation of what I was thinking about that day. I wanted something which imported data from various social networks and had an ability to add notes. Once I found this <em>magical</em> app, the plan was to import the exported CSV file from iDoneThis in to this.</p>
+
+<p>Soon I discovered <a href="http://dayoneapp.com/">Day One</a>  It is beautiful and very close to what I wanted. By this time, I had a Mac and the Day One Mac app was for $10. I like these paid apps which have a clear business model. But, there were a couple of hindrances:</p>
+
+<p>DayOne did not have and still has not got an Android app. I use a Samsung Galaxy S2 and was used to write my iDoneThis emails on my phone. This was not a major concern because I could always write on phone in something like Evernote and import to DayOne on Mac. Also, I had seen DayOne recruitment ads for Android engineers, so I knew they were working on it. But, there still isn&rsquo;t a DayOne app on Play Store.</p>
+
+<p>My second issue was much more generic. I had seen DayOne export options and they only offer PDFs. I had seen <a href="http://www.ted.com/talks/tim_berners_lee_on_the_next_web.html">Tim Berners-Lee&rsquo;s talk</a> on the importance of linked data, and how difficult extracting data from PDFs can be. But really, did I expect DayOne to give out JSON?</p>
+
+<p>Why focus so much on export?</p>
+
+<p>Twitter and Facebook have an option to get full dumps of our data. I am not sure which format these dumps are in and how usable they are. But, due to the sheer size of their user base, there will always be people who would be interested to work on tools to translate their dumps to a more usable form.</p>
+
+<p>But, neither DayOne or any other journal app has that size of an audience. I fear that my data will get locked in their proprietary format. I am comfortable with my Facebook and Twitter data being locked, but I want my journal to be around 30-40 years from now. How many tech companies survive for that long? Another way to think about this is that most of the time that we spend on the web goes in creating and interacting with ephemeral content stored in complex formats. I want something simple with the guarantee of permanence.</p>
+
+<p>This is similar to the question of should one write on <a href="https://medium.com">Medium</a> or on your own site. Andrew Chen <a href="http://quibb.com/links/is-it-better-to-write-on-medium-or-on-your-own-blog">had a good  comment</a> on this:</p>
+
+<blockquote><p>Personally I think it&rsquo;s better to write on your own blog so that you can own your audience long term. Who knows where medium will be in 5 or 10 years, and over time I&rsquo;ve come to think of writing and audience building as a lifetime endeavour. That said, it&rsquo;s a good way to get started. Quora too.</p></blockquote>
+
+<p>Evan Williams is a phenomenal creator - from Blogger to Twitter to Medium now. As much as I love the writing experience of Medium, I have already taken this site once from Blogger to Wordpress to Jekyll/Octopress. I do not want to do that again.</p>
+
+<p>I wonder how this will translate to the Quantified Self movement. The wearables are getting smarter and soon they will make the jump from being like twitter to becoming our journal. The data they will gather may become an important tool for doctors in diagnosing and recommending treatments to their patients. This data will be too valuable to be tied with the fortunes of a particular company. I hope the likes of Jawbone/Fitbit/<a href="http://www.theverge.com/2014/1/8/5287800/spec-sheet-ces-2014-wearables-sensors">every other company</a> which demoed a wearable at CES can sit down and thrash out a common format.</p>
+
+<p>I have these concerns about other digital things too. This is what I <a href="http://instagram.com/p/Ks9duekRXy/">posted on Instagram</a> a couple of years back when I was in college.</p>
+
+<blockquote><p>My Dad purchased this book more than 30 years ago. That is what I fear about buying books on Kindle or iBooks. Will Kindle or Amazon be relevant of even exist after 30 years?</p></blockquote>
+
+<iframe src="//instagram.com/p/Ks9duekRXy/embed/" width="612" height="710" frameborder="0" scrolling="no" allowtransparency="true"> </iframe>
+
+
+<p>Despite these fears, I use Kindle for books. Maybe someday, I will be confident enough of an app to use it for journaling. In the meantime, there is a simple document in my Google Drive where these journal entries go.</p>
+
+<p>There is a new app called <a href="http://www.hey.co/">Heyday</a> which taps in to the various social networks and &lsquo;auto writes&rsquo; itself. I will give it a shot when it launches on Android, but its site has nothing on export options. Adding photos on Google Drive is not a joy, and Evernote works much better offline than Drive. I am wondering whether I should move to Evernote.</p>
+
+<p>My journal has not found its permanent home yet.</p>
+]]></content>
+  </entry>
+  
+</feed>

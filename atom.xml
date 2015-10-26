@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Rohit Mishra]]></title>
+  <link href="http://mishrarohit.github.io/atom.xml" rel="self"/>
+  <link href="http://mishrarohit.github.io/"/>
+  <updated>2015-10-27T01:29:39+05:30</updated>
+  <id>http://mishrarohit.github.io/</id>
+  <author>
+    <name><![CDATA[Rohit Mishra]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[End of Allotrop]]></title>
+    <link href="http://mishrarohit.github.io/blog/2014/02/25/end-of-allotrop/"/>
+    <updated>2014-02-25T00:02:00+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2014/02/25/end-of-allotrop</id>
+    <content type="html"><![CDATA[<p>Despite my best efforts, <a href="https://allotrop.com">Allotrop</a> has not been able to attract enough user activity. So, after about 18 months of pursuing this dream, I have decided to move on. The product will stay online for the near future, but I will stop working on it.</p>
+
+<p>I will write a more detailed post on what led me to Allotrop and the things I tried to make it work shortly.</p>
+
+<p>I am extremely thankful to everyone who visited Allotrop and supported me online and offline. I also want to thank my family, especially my father who bankrolled my expenses for the past couple of years. I wish I had more to show for the faith he put in me. I am also extremely lucky to have a girlfriend who has often been the first person to try a new feature I developed and has helped me through all the lows of the past couple of years.</p>
+
+<p>Death by obscurity is one of the worst ways for a startup to go down. I would have preferred being beaten comprehensively by a better product. But, we do not chose how we die, do we?</p>
+
+<p>I will look for a full-time employment or freelance work now. I will also use this time to try out some new things I have not been able to play with for lack of time. Client side MVC frameworks, Scala, Go, Clojure, Node, iOS 7 and Android 4.4. I hope the delight of learning something new will tide over this gloom of failure.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Long Term Relevance Issue of Life Logging Apps]]></title>
+    <link href="http://mishrarohit.github.io/blog/2014/01/12/the-long-term-relevance-issue-of-life-logging-apps/"/>
+    <updated>2014-01-12T15:42:00+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2014/01/12/the-long-term-relevance-issue-of-life-logging-apps</id>
+    <content type="html"><![CDATA[<p><em>Jan 12, 2014 -  Bombay</em></p>
+
+<p>Half of January is done. Years back, this was the time when the first chinks in my annual resolution of &ldquo;<em>Lets start writing a journal</em>&rdquo; would begin. As much as I wished, I have never had an year where I wrote a journal even for 100 days in a year. I tried a lot to entice me to writing one. But, even getting hold of one of the fancy diaries that was gifted to my Dad and a Parker pen weren&rsquo;t enough. I should have known better. You do not start playing guitar by buying an expensive goo looking one.</p>
+
+<p>This finally changed in April 2012 when I got hooked to <a href="http://www.idonethis.com">iDoneThis</a>. It is originally supposed to be used to log the things that you got done that day. They send you an email once a day at a time you set and you can reply back to the mail, one task per line. I started using it to track my progress on <a href="https://allotrop.com">Allotrop</a>, but soon started using it as a journal. I did not reply to that email everyday, but took care to remember what I had done on a particular day and enter it. The fact that this was the time when I had started working on Allotrop meant that most of my days could be easily  retraced using <code>git log</code> and checking my Chrome history. I managed a continuous streak of over 550 days from April 2012 to October 2013.</p>
+
+<p>But, this was no journal. It was not a complete representation of what I was thinking about that day. I wanted something which imported data from various social networks and had an ability to add notes. Once I found this <em>magical</em> app, the plan was to import the exported CSV file from iDoneThis in to this.</p>
+
+<p>Soon I discovered <a href="http://dayoneapp.com/">Day One</a>  It is beautiful and very close to what I wanted. By this time, I had a Mac and the Day One Mac app was for $10. I like these paid apps which have a clear business model. But, there were a couple of hindrances:</p>
+
+<p>DayOne did not have and still has not got an Android app. I use a Samsung Galaxy S2 and was used to write my iDoneThis emails on my phone. This was not a major concern because I could always write on phone in something like Evernote and import to DayOne on Mac. Also, I had seen DayOne recruitment ads for Android engineers, so I knew they were working on it. But, there still isn&rsquo;t a DayOne app on Play Store.</p>
+
+<p>My second issue was much more generic. I had seen DayOne export options and they only offer PDFs. I had seen <a href="http://www.ted.com/talks/tim_berners_lee_on_the_next_web.html">Tim Berners-Lee&rsquo;s talk</a> on the importance of linked data, and how difficult extracting data from PDFs can be. But really, did I expect DayOne to give out JSON?</p>
+
+<p>Why focus so much on export?</p>
+
+<p>Twitter and Facebook have an option to get full dumps of our data. I am not sure which format these dumps are in and how usable they are. But, due to the sheer size of their user base, there will always be people who would be interested to work on tools to translate their dumps to a more usable form.</p>
+
+<p>But, neither DayOne or any other journal app has that size of an audience. I fear that my data will get locked in their proprietary format. I am comfortable with my Facebook and Twitter data being locked, but I want my journal to be around 30-40 years from now. How many tech companies survive for that long? Another way to think about this is that most of the time that we spend on the web goes in creating and interacting with ephemeral content stored in complex formats. I want something simple with the guarantee of permanence.</p>
+
+<p>This is similar to the question of should one write on <a href="https://medium.com">Medium</a> or on your own site. Andrew Chen <a href="http://quibb.com/links/is-it-better-to-write-on-medium-or-on-your-own-blog">had a good  comment</a> on this:</p>
+
+<blockquote><p>Personally I think it&rsquo;s better to write on your own blog so that you can own your audience long term. Who knows where medium will be in 5 or 10 years, and over time I&rsquo;ve come to think of writing and audience building as a lifetime endeavour. That said, it&rsquo;s a good way to get started. Quora too.</p></blockquote>
+
+<p>Evan Williams is a phenomenal creator - from Blogger to Twitter to Medium now. As much as I love the writing experience of Medium, I have already taken this site once from Blogger to Wordpress to Jekyll/Octopress. I do not want to do that again.</p>
+
+<p>I wonder how this will translate to the Quantified Self movement. The wearables are getting smarter and soon they will make the jump from being like twitter to becoming our journal. The data they will gather may become an important tool for doctors in diagnosing and recommending treatments to their patients. This data will be too valuable to be tied with the fortunes of a particular company. I hope the likes of Jawbone/Fitbit/<a href="http://www.theverge.com/2014/1/8/5287800/spec-sheet-ces-2014-wearables-sensors">every other company</a> which demoed a wearable at CES can sit down and thrash out a common format.</p>
+
+<p>I have these concerns about other digital things too. This is what I <a href="http://instagram.com/p/Ks9duekRXy/">posted on Instagram</a> a couple of years back when I was in college.</p>
+
+<blockquote><p>My Dad purchased this book more than 30 years ago. That is what I fear about buying books on Kindle or iBooks. Will Kindle or Amazon be relevant of even exist after 30 years?</p></blockquote>
+
+<iframe src="//instagram.com/p/Ks9duekRXy/embed/" width="612" height="710" frameborder="0" scrolling="no" allowtransparency="true"> </iframe>
+
+
+<p>Despite these fears, I use Kindle for books. Maybe someday, I will be confident enough of an app to use it for journaling. In the meantime, there is a simple document in my Google Drive where these journal entries go.</p>
+
+<p>There is a new app called <a href="http://www.hey.co/">Heyday</a> which taps in to the various social networks and &lsquo;auto writes&rsquo; itself. I will give it a shot when it launches on Android, but its site has nothing on export options. Adding photos on Google Drive is not a joy, and Evernote works much better offline than Drive. I am wondering whether I should move to Evernote.</p>
+
+<p>My journal has not found its permanent home yet.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Shared Endorsements — turning Us All in to Unintentional Advertisers]]></title>
+    <link href="http://mishrarohit.github.io/blog/2014/01/05/shared-endorsements-turning-us-all-in-to-unintentional-advertisers/"/>
+    <updated>2014-01-05T04:34:00+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2014/01/05/shared-endorsements-turning-us-all-in-to-unintentional-advertisers</id>
+    <content type="html"><![CDATA[<p>Originally published on <a href="https://medium.com/i-m-h-o/42c95f499cb0%20%22Medium">Medium</a></p>
+
+<p>Advertisements on free services are a necessity. But, Facebook
+and Google are misusing user intent by turning their activity into implicit endorsements.</p>
+
+<p>Google announced earlier today that it is going to start using Facebook style user endorsements.</p>
+
+<p><em>These “shared endorsements,” as Google is calling them, leverage any reviews, comments, +1s, follows or stars a user may have given to a business or brand by effectively placing that user’s name, photo and any relevant comment in a personalized advertisement.</em></p>
+
+<p>Since Facebook has been doing this for a while, I am going to talk about it first. What these services excel at is bundling multiple things together to justify their actions. Facebook has done this with the <em>like</em> button. Most of us have been through the drill. We come across some post from a page, like it, and then our name gets stamped on top of all sponsored posts from that page.</p>
+
+<p><img src="https://d262ilb51hltx0.cloudfront.net/max/800/0*VXRa1c-lTRJw_sCX.jpeg" alt="Facebook Sponsored Post"></p>
+
+<p><em>We have an advertisement to show you — but we do not want to call it that. So, because a couple of your friends like this page, we have a post to show you.
+Lets adapt a real life scenario to see how it can play with sponsored endorsements.</em></p>
+
+<p>A guy called Elon Musk opens Facebook. He sees a post about this new group called FWD.US — they are doing admirable work in pushing for immigration reform which will allow more talented people to stay on in USA. Life goes on and he forgets about the group. Someone in the group has an epiphany and they think supporting drilling oil wells will help with their immigration agenda. A friend of Musk gets the shock of his life the next day when he goes to Facebook. It says</p>
+
+<p><em>Elon Musk likes FWD.US</em></p>
+
+<p>followed by a post about the benefits of drilling for more oil.</p>
+
+<p>If you have been paying attention to news, you would know that this <a href="http://www.nytimes.com/2013/05/11/technology/teslas-elon-musk-leaves-zuckerbergs-fwdus.html">played out differently</a> in real life. In our alternate world, Musk will keep endorsing this group unless someone points out to him what his like is doing.</p>
+
+<p>The problem in this fictional account is that the user intent has been muddled up. When someone likes or +1 a content, they expect to see more content from the creator/similar content in their feed. They <strong>are not endorsing</strong> the creator of that content for everything else.</p>
+
+<p>Even when the intent is closer to a recommendation as in the case of giving a star rating, this <em>shared endorsement</em> needs to be shown with context. I will give another example of how this can be misused.</p>
+
+<p>The social networking service, Path, <a href="http://www.theverge.com/2013/4/30/4286090/path-is-spamming-address-books-with-unwanted-texts-and-robocalls">had a problem</a> a while back where their app was found to upload users contacts to their servers without explicit user permission and then spam those contacts. Now, an enterprising marketer at Path could have used these shared endorsements to run a campaign digging out good ratings given to the app a long while back <a href="http://gigaom.com/2013/04/22/even-if-path-goes-astray-the-company-has-already-blazed-a-trail-in-mobile-design/">for its trailblazing design</a>. A user who rated the Path app highly for its design will not be comfortable with her name being used to promote an app spamming users’ contacts.</p>
+
+<p>When a user goes to a review site, she is aware about looking for context — when was this review, see all other reviews by the reviewer to understand her preferences. The way <em>social endorsements</em> work on Facebook (and Google probably) rob the user of this essential context.</p>
+
+<p>Now, lets deal with another crap used by these companies — “Oh, but you know it is optional. Users can always opt out.” This is what I see on Chrome’s new tab page about <em>shared endorsements</em>.</p>
+
+<p><img src="https://d262ilb51hltx0.cloudfront.net/max/1278/0*6FO8X_LxcPqlurBQ.png" alt="Chrome new Terms of Service"></p>
+
+<p><em>Yeah, everyone is clicking on the Learn More. Internet users love to see what is new in your Terms of Service when they open their browser.</em></p>
+
+<p>For computer users conditioned by years of clicking on Next and Submit without bothering to read the life-sucking Terms of Service, most are just going to do an angry click on the Got it button and continue with their lives. Google knows this. Remember that huge arrow on Google’s homepage pointing people to use Google+ or the <a href="http://readwrite.com/2013/05/22/if-google-is-good-why-does-google-insist-on-forcing-it-on-us">bazillion other prompts</a>. They did not do a simple announcement bar which goes away once we click <em>Got it. <strong>Not at all.</strong></em></p>
+
+<p>I am not against advertising. Most free products fall back on advertising to generate revenue. For years, Google and other ad exchanges have been doing a good work in making advertising profitable for themselves as well as the advertisers, without any harm to their users — allowing many great free services to flourish. Lately, companies like Flipboard and Tumblr have been taking this further with a more integrated native advertising.</p>
+
+<p>I really admire how Twitter handles their sponsored posts. You see a promoted tweet and you know that someone has paid for it. If someone is following that account, they may be interested in it, but they are not <strong>endorsing</strong> it.</p>
+
+<p><img src="https://d262ilb51hltx0.cloudfront.net/max/800/0*3t92Q5E9w5tR_fNA.jpeg" alt="Sponsored tweet"></p>
+
+<p><em>Contrast with Facebook, where the friend’s name comes on top and the sponsored post is a Related Note.</em></p>
+
+<p>Even then, many twitter users take care to mention that their tweets/retweets are not endorsements to avoid any confusion.</p>
+
+<p><img src="https://d262ilb51hltx0.cloudfront.net/max/800/0*zfrFIYDvG2-Fk9JE.jpeg" alt="Omar Abdullah on Twitter"></p>
+
+<p><img src="https://d262ilb51hltx0.cloudfront.net/max/800/0*7e8zoz7Ww9UfUV0o.jpeg" alt="Rajdeep Sardesai on Twitter"></p>
+
+<p><em>Pretty sure, no Facebook/Google executive has ever seen such a Twitter bio.</em></p>
+
+<p>I think there is a great value in the overall space of social recommendations. Sites like Yelp, Goodreads, and Zomato have been immensely successful in their verticals. And, people do endorse a great deal of things on the web.</p>
+
+<p><img src="https://d262ilb51hltx0.cloudfront.net/max/800/0*d6dPy3bCbvY4L830.png" alt="Vivek Wadhwa asking for recommendation on Twitter"></p>
+
+<p><img src="https://d262ilb51hltx0.cloudfront.net/max/862/0*nFd-FpmAT5aofXuQ.jpeg" alt="Vivek Wadhwa asking for recommendation on Twitter"></p>
+
+<p><em>User endorsement on Trello’s homepage</em></p>
+
+<p>I think that sharing the things we believe are great has a lot of value. Someone else can discover a great new thing or give us new perspective about the thing that we love. This is what I am trying to build for the past year at <a href="https://allotrop.com">Allotrop</a>. I want people to be able to collect all their favorite things in a place so that all of us can discover more fabulous things easily. I would love if you can try it out and give me feedback.</p>
+
+<p>Till then, the next time you see a <em>social endorsement</em> ( or whatever other obtuse phrase they come up with ), take it with a grain of salt. Its quite likely your friend only <em>likes</em> it.</p>
+
+<p><strong>EDIT:</strong> (Jan 10, 2014) The Verge <a href="http://www.theverge.com/2014/1/9/5293166/facebook-sponsored-stories-will-be-removed-from-the-site-on-april-9th">is reporting</a> that Facebook is going to remove these sponsored ad units as of April 2014. It says:</p>
+
+<blockquote><p>Facebook is likely happy to finally remove the stories from its site — a class-action lawsuit was filed in 2011, not long after Sponsored Stories launched. Last August, Facebook agreed to a $20 million settlement. That&rsquo;s not a lot of money by Facebook&rsquo;s standards, but the ads and resulting lawsuit no doubt damaged the company&rsquo;s reputation in the public eye.</p></blockquote>
+
+<p>Hope this serves as a warning for other companies to not misuse user intent for advertising.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Silence of Our Heroes]]></title>
+    <link href="http://mishrarohit.github.io/blog/2013/05/28/silence-of-heroes/"/>
+    <updated>2013-05-28T22:42:00+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2013/05/28/silence-of-heroes</id>
+    <content type="html"><![CDATA[<p><img src="http://farm6.staticflickr.com/5445/8871609083_a9ff11b31c_z.jpg" alt="World Cup 2011 champions" /></p>
+
+<p>In India, most of our heroes come from cricket. This is not because other fields have not produced as many great exponents, but due to the disproportional love and attention that cricket enjoys. There is nothing as common in all parts of our country as much as the love for the game of cricket. <sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+
+<p>I read somewhere that it is good to see your heroes from a distance. If you get too close, you can then see that they have a lot of the same deficiencies that we have. In the past 6 years, thanks to IPL, we have seen a lot more of our cricketing heroes than we used to see earlier. But, I must contend, that for people like me - who saw a lot of cricket right from childhood - our heroes came from international cricket. <sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></p>
+
+<p>There is something unique about becoming a hero in sports. It takes a long time to become one and once you become one, you stay there. Mahendra Singh Dhoni is arguably the newest hero, and he made his ODI debut in December, 2004. <sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup> Also, talk to anyone who grew up in 70s and 80s, and it won&rsquo;t take much before they start raving about the likes of Sunil Gavaskar and Kapil Dev.</p>
+
+<p>If you would do a poll of Indian cricketing heroes, the list would generally include Sachin Tendulkar, Sunil Gavaskar, Kapil Dev, Rahul Dravid, Sourav Ganguly, Mohinder Amarnath, Anil Kumble and Mahendra Singh Dhoni. This is not an exhaustive list by any measure, but I believe that most of these names will feature in everyone&rsquo;s own list of heroes.</p>
+
+<h2>The 2013 IPL spot-fixing/betting controversy</h2>
+
+<p>Indian cricket and IPL have been rocked in the past few weeks by  allegations of spot-fixing and betting. First came the spot-fixing expose by the Delhi Police. The fact that most T20 matches are won or lost by minuscule margins meant that these 3 rotten apples &ndash; Sreesanth, Chandila and Ankeet Chavan - were basically doing their best to help their team - Rajasthan Royals - lose. So, I do not understand how spot-fixing and match-fixing are different in the context of T20 cricket?</p>
+
+<h2>Dravid</h2>
+
+<p><img src="http://farm5.staticflickr.com/4085/5070363687_f651727137_z.jpg" alt="Rahul Dravid | Credit: Royal Challengers Bangalore/Flickr" ></p>
+
+<p>I saw the first press conference that Delhi Police did after arresting these three players live on TV. The Police played recordings of matches and showed how these 3 bowlers were deliberately bowling bad deliveries. What stuck with me was the sight of Rahul Dravid in all these tapes, anguished by his bowlers getting ripped apart.</p>
+
+<p>Dravid took the underdog <em>moneyball</em> <sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup> team of Rajasthan Royals to the playoffs this season with a great display of captaincy and getting the best out of the limited resources he has. To know that these 3 cheats were letting down such a great man was more painful than their act of cheating itself.</p>
+
+<p>Dravid has always been the selfless hero of Indian cricket ready to do whatever the team needed of him. Whenever India&rsquo;s opening pair failed, or we needed a wicket-keeper batsmen before Dhoni came on, the team turned to Dravid. If you put the word cricket and gentleman together, most followers of the game world over will think of Dravid.</p>
+
+<p>The former English international Ed Smith said in a <a href="http://www.espncricinfo.com/magazine/content/story/557122.html">beautiful profile of Dravid</a> in ESPNCricInfo -</p>
+
+<blockquote><p>In that sense, Dravid is a true gentleman. Where many sportsmen flatter to deceive, Dravid runs deep. He is a man of substance, morally serious and intellectually curious. For all his understatement, he couldn&rsquo;t fail to convey those qualities to anyone who watched him properly.</p></blockquote>
+
+<p><img src="http://farm4.staticflickr.com/3326/3493343617_a773010387.jpg" alt="Dravid and Laxman after their famous partnership at Eden Gardens 2001"></p>
+
+<p>Dravid has always been a batsmen defined by his determination. His performances have been extra-ordinary, yet subtle. His partnership with Laxman in the 2001 Eden Gardens Test against Australia was surreal. When playing in pace-friendly pitches of England, Australia or South Africa, it was always Dravid on whom the team primarily depended. <a href="http://www.guardian.co.uk/sport/2011/aug/24/the-spin-rahul-dravid?CMP=twt_gu">This account of his batting by Andy Bull in The Guardian</a> in the England test-series of 2012 which India lost 4-0 is a great read.</p>
+
+<p>There is something else about Dravid. He is a cricketer who I have learned to appreciate as I have grown up. He is not the most flashy or fast-scoring batsmen. It takes time for one to understand the class of this man.</p>
+
+<p><a href="http://www.youtube.com/watch?v=qr4bK63WxXY&amp;feature=player_embedded">This speech</a> that he gave at Sir Donald Bradman Oration 2011 is a must to understand how deeply this man cares for the game.</p>
+
+<p>It is not surprising then that among all the greats, it is only Dravid who has taken a <a href="http://www.thehindu.com/sport/ipl2013/dravid-insists-on-finding-the-truth-to-restore-sanity/article4749636.ece">dignified stance</a> in the whole betting/fixing saga. He said how he was pained by the fixing scandal and thinks IPL needs some cleaning up. This may not sound much but when put against the deafening silence of his contemporaries, it is a lot.</p>
+
+<h2>Dhoni</h2>
+
+<p><img src="http://farm4.staticflickr.com/3669/8879316324_3d56f3a56d.jpg" alt="Mahendra Singh Dhoni"></p>
+
+<p>Among this list of cricketing heroes, Dhoni is the only one I can claim to have seen from the start of his career. Dhoni is an inspiration in how he has reached where he has. He wasn&rsquo;t the best wicket-keeper or the most fluent batsmen when he started his career. But he has worked hard and been a charismatic captain of his teams. Though most heroes are a mix of talent and effort, in Dhoni&rsquo;s case, the proportion of effort is much higher.</p>
+
+<p>Dhoni is also in a way symbolic of the rise of the part of India to which I belong. Dhoni is a native of Ranchi and went to the same high school that my girlfriend went to. There was not even a cricket stadium in Ranchi, when he grew up and the Bihar/Jharkhand Ranji team was not a fancied domestic team. In his meteoric rise to the apex of Indian cricket, Dhoni symbolises the hope of the majority of Indians who do not live in the tier-1 cities.</p>
+
+<p>While I was at college, my parents moved to Ranchi. On a trip home, my Dad took me to see Dhoni&rsquo;s parents&#8217; home where he grew up. It is a typical small-town government quarter. The only difference was a Hummer standing in front and a bunch of policemen who gladly take up the role of tour guides and tell you stories of Dhoni. I doubt if anyone visiting Ranchi does not  see the impact of this man on the city - from the stories about him to the shops named after him.</p>
+
+<p><img src="http://farm3.staticflickr.com/2867/8879367658_fbb439a8f3.jpg" alt="Dhoni's winning shot at the 2011 World Cup final"></p>
+
+<p>It was under Dhoni and with his own performance in the final that India won the 2011 World Cup. That was one of the high points of a life for most of us. The Test World Number 1 ranking, T20 World Cup, CB Series and his remarkably consistent performance as captain and player for the Chennai Super Kings in IPL make him one of the most successful Indian cricketers.</p>
+
+<p>Apart from his huge list of achievements, Dhoni is famous for his calm demeanour in the most tense of matches. In this context, the last few days have been horrible for those who consider him a hero. When India was white-washed 8-0 in Australia and England, the selectors wanted to replace Dhoni but they were <a href="http://sports.ndtv.com/india-vs-england-2012/news/200562-bcci-blocked-dhonis-removal-as-captain">stopped by the board.</a> There was a controversy at the time - the Board President M Srinivasan is the owner of Chennai Super Kings, the team Dhoni leads in IPL.<sup id="fnref:5"><a href="#fn:5" rel="footnote">5</a></sup> Now, as CSK team principal and Srinivasan&rsquo;s son-in-law Gurunath was arrested by Mumbai Police for betting, along with Vindoo Dara Singh ( another fixer ) with whom Dhoni&rsquo;s wife Sakshi saw IPL matches this season, Dhoni has maintained silence - skipping press meets. Moreover, Dhoni is a Vice President of India Cements.</p>
+
+<p>Yesterday, in a press conference before the Indian team left for Champions Trophy in England, Dhoni <a href="http://www.thehindu.com/sport/ipl2013/dhoni-is-gagged-as-crickets-politicians-close-ranks/article4760355.ece">did not answer</a> any single question related to this controversy. He gave a cool smile as the media manager of BCCI prevented journalists from asking Dhoni questions about this controversy.</p>
+
+<p>As Srinivasan has mounted a brazen defence full of lies - declaring Gurunath to be <strong>an enthusiastic fan only</strong>, one wonders why Dhoni is not speaking out. Why one of the most successful Indian captains is letting a board of liars and cheats gag him? The troubling counter-side is that he is deliberately avoiding these difficult questions. I am sure Dhoni&rsquo;s fan base will be sky high as always and this controversy will be forgotten as days go on. Either Dhoni is not brave enough to take on the board or is complicit with them in this farce. As days go on, one will have to accept the inevitable that we will never find out the truth. The integrity of a national hero will forever be compromised.</p>
+
+<h2>Gavaskar, Srikanth, Kapil, Kumble</h2>
+
+<p>Gavaskar and Srikanth have both vaguely defended the board president&rsquo;s position on different TV channels with arguments which will make your bones grimace. Kapil Dev has not spoken a word. Kumble made a weird suggestion of removing <em>all records</em> of the 3 Royals players, but spoke nothing about the CSK episode.</p>
+
+<p>All these legends of the game are associated with BCCI as commentators, committee members and team mentors. It is puzzling that none of them comes out and speaks against these corrupt administrators who are ruining a game that all of them made famous.</p>
+
+<p>As Rajdeep Sardesai said on his news show last night, it seems that all of these legendary players have become servile to BCCI and that the Board has bought their silence by giving them plush and financially rewarding positions.</p>
+
+<p>Like Dhoni, each of them have a support base of tens of millions of fans, and huge amount of money. What stops them from holding the board accountable. Or have they turned in to businessmen who just use the game just as any broadcaster or advertiser uses the game?</p>
+
+<h2>Sachin</h2>
+
+<p><img src="http://farm4.staticflickr.com/3757/8879152467_c6e1b11c53_z.jpg" alt="My Facebook post with Sachin with the World Cup"></p>
+
+<p>Whatever little memories I have of my childhood, a lot of them involve Sachin. The Sharjhah double centuries against Aussies, the century against Kenya in the 1999 World Cup after his father died, the 2003 match against Pakistan in World Cup to count off the top of my mind.</p>
+
+<p>Till the time I believed in praying, I would have said 10x prayers for Sachin than for everything else combined. When <a href="http://shikhasinghiitkgp.blogspot.in/2011/03/endulkar-dare-we-imagine-unimaginable.html">The Times of India published a front=page piece called Endulkar</a> predicting his end in 2006, I stopped reading ToI. I have not forgiven ToI for that yet.<sup id="fnref:6"><a href="#fn:6" rel="footnote">6</a></sup></p>
+
+<p><img src="http://farm6.staticflickr.com/5463/8879469843_0a082ec84e.jpg" alt="Sachin plays well, India sleeps well"></p>
+
+<p>Unlike Dravid, who I learnt to appreciate, I have been a fan of Sachin as far back as my memory goes. There were times I wished he would just stay at the non-strikers end. Never get out. When he was <a href="http://www.espncricinfo.com/magazine/content/story/496743.html">accused of ball tampering</a>, one felt being personally accused of cheating. The anger at that time would outdo the best of shouting matches on our news channels today.</p>
+
+<p>Sachin&rsquo;s brilliance, technique, style &ndash; I guess a lot of us would have got our PhDs if all the discussion we did on him was counted for. Sachin has retired from ODIs and IPL. He may retire from tests soon. When that happens, I know a lot of us will divide our lives in pre-Sachin (retirement) and post-Sachin phases. I doubt we would root for someone ever again as we do for Sachin.</p>
+
+<p>I often wonder what would happen if Sachin took a stance on some political issue. He rarely does. He rarely talks about things other than cricket. In the finals of this year&rsquo;s IPL, Sachin came on the mike and chatted with Harsha Bhogle. It was awesome to hear him speak. I may tune in to matches to hear his commentary, as I did to hear Dravid&rsquo;s. But, I hope he does not turn in to the meek character that Gavaskar has become. We survived all of Sachin&rsquo;s nervous 90s. We won&rsquo;t survive that.</p>
+
+<h2>BCCI</h2>
+
+<p>BCCI is a private body which runs cricket in India but is accountable to no one. The people at the top of BCCI - the likes of Dalmiya, Srinivasan, Jaitley, Pawar and Shukla - have been there for decades. All of these men have much bigger companies to run or are sitting members of the Parliament. The state associations are completely dependent on the BCCI for their funding, getting allocated a match or their members being sent overseas as managers.</p>
+
+<p>This cycle of sycophancy, corruption and brazen impropriety is ruining our game. Inevitably, every on-field action is now seen with  suspicion. The Board and its shameless masters keep their grip over the game feeding on the love we bestow to our heroes and our game.</p>
+
+<p>One wonders why these heroes, these demigods do not do anything to get the game out of the clutches of these people. I am sure all of them know more of the devious ways of the cricket board than we do. Most of them are connected to the board. Why let this feudal parasitic structure keep a deathly grip on all of cricket in this country. The members of the board come from different political parties, so obviously none of the parties will ever talk of cleaning the game and its administration. Who else can do something to fix this murky situation?</p>
+
+<p>Martin Luther King said:</p>
+
+<blockquote><p>&ldquo;History will have to record that the greatest tragedy of this period of social transition was not the strident clamor of the bad people, but the appalling silence of the good people.&rdquo;</p></blockquote>
+
+<p><strong>These are not just good people. These are heroes to millions of people. Why stay silent?</strong></p>
+
+<h3>Footnotes</h3>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>Its quite telling that while discussing Mizoram&rsquo;s transition to peace from insurgency in his book &ldquo;<strong>India after Gandhi</strong>&rdquo;, the historian <strong>Ramachandra Guha</strong> says - &ldquo;By 1999 Mizoram had overtaken Kerala as India&rsquo;s most literate state. The integration with the mainland was proceeding apace; Mizos were learning the national language, Hindi, and watching and playing the national game, cricket.&rdquo;<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<li id="fn:2">
+<p>IPL, on the other hand, has made many international players very famous in India. The likes of Chris Gayle, Michael Hussey, Lasith Malinga and Kieron Pollard are very popular here, whereas only the more avid cricket follower would know them otherwise. <a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+<li id="fn:3">
+<p>No one among my friends would include Virat Kohli in this list of heroes as yet. He has a lot more to do to join this exclusive list.  <a href="#fnref:3" rev="footnote">&#8617;</a></p></li>
+<li id="fn:4">
+<p>Dravid used the word &lsquo;money ball&rsquo; himself in a post-match presentation. When asked by the presenter whether this was a subtle way of putting the opposition in pressure, Dravid, true to his honest nature, said that this was a fact pointing the stark difference in the budgets of his team and his then-rivals the Chennai Super Kings, and the Mumbai Indians.  <a href="#fnref:4" rev="footnote">&#8617;</a></p></li>
+<li id="fn:5">
+<p>Srinivasan often says that he does not own CSK. He is only a shareholder of India Cements which owns CSK. But, he is the majority shareholder of India Cements. If you thought making stupid opinions in public with a lot of force was only the domain of politicians, Srinivasan will prove you wrong. <a href="#fnref:5" rev="footnote">&#8617;</a></p></li>
+<li id="fn:6">
+<p>The fact that Times of India has gone on to become mostly a tabloid newspaper helps. <a href="#fnref:6" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[On Octopress]]></title>
+    <link href="http://mishrarohit.github.io/blog/2013/02/17/on-octopress/"/>
+    <updated>2013-02-17T13:18:00+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2013/02/17/on-octopress</id>
+    <content type="html"><![CDATA[<p>I have moved this blog to Octopress. <em>Test post</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Aaron Swartz]]></title>
+    <link href="http://mishrarohit.github.io/blog/2013/01/27/aaron-swartz/"/>
+    <updated>2013-01-27T10:34:04+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2013/01/27/aaron-swartz</id>
+    <content type="html"><![CDATA[<p><img src="http://farm3.staticflickr.com/2552/3835494997_edc2e1dc12.jpg" alt="Boston wiki meetup by ragesoss, on Flickr" /></p>
+
+<p><a href="http://en.wikipedia.org/wiki/Aaron_Swartz">Aaron Swartz</a> was not a name I would have recognized before his death. But, in the days since, I have read a lot on how this genius, who fought for public good, was <a href="http://lessig.tumblr.com/post/40347463044/prosecutor-as-bully">pushed to suicide</a> by the US Department of Justice. It has left me appalled, angry and disillusioned.</p>
+
+<p>Aaron was a hero. He was able to use technology for greater good. RSS, Reddit, Demand Progress - the group which campaigned against SOPA to name some of the more recognizable things with which he was associated. For someone like him to fall, for someone who had achieved so much and had the company of many illustrious people, it seeds so many doubts in one&rsquo;s mind. If someone like Aaron can be ensnared  by these unethical corrupt people, what should those of us with far lesser abilities do?</p>
+
+<p>There are two more things that make Aaron&rsquo;s case more painful for me.</p>
+
+<p>At my college, there was print as well as digital access to IEEE and ACM journals. For a reason I still don&rsquo;t understand, these journals could only be accessed from specific computers in the &ldquo;digital library&rdquo; and not from your machine. I know I had a privilege few others have even with this limited access. But, I still couldn&rsquo;t help but wonder why does IEEE or ACM need to charge me money for PDFs? All these papers have tons of citations. Why can&rsquo;t we browse though them as easily as one does at Wikipedia without paying money? Aaron Swartz thought similarly. He mass-downloaded academic articles, meant to be in public domain, from JSTOR and was charged with decades of imprisonment and millions of dollars  in fines for doing so. Aaron wished that everyone on internet should have access to this information. His method may have been wrong, but his intent wasn&rsquo;t. Sadly, this world treats those whose intent is wrong, but methods are right in a much better way.</p>
+
+<p>I wanted to go to MIT to do my bachelors, but wasn&rsquo;t selected. For as far back as I can remember, MIT has been the place for hackers, not just in CS. For this iconic organization to give up its ideals and call police/secret service on a guy who was downloading academic papers is heart-breaking. Was there no one at MIT who could have talked to Swartz, made their position clear and work with him on getting free access to research papers? Much before online courses became cool, MIT had launched OpenCourseWare back in 2002 to take its education to everyone. MIT&rsquo;s President has ordered an investigation in to its role in the Swartz incident to be led by Hal Abelson, one of the people behind OCW.</p>
+
+<p>I hope MIT comes clean on this.</p>
+
+<p>There is something I will personally do now to honor the memory of Swartz. I will build an option where users can export their data from Allotrop. The madness that is out there where one service specifically blocks another service from accessing its data is wrong.</p>
+
+<p>I will remember this hero in my thoughts and work for the change he sought.</p>
+
+<p>Here is the memorial video for Swartz held at the Internet Archive.</p>
+
+<p><a href="http://www.youtube.com/watch?v=x3Fz1V3LZtw">http://www.youtube.com/watch?v=x3Fz1V3LZtw</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Dear Arvind, Please Chuck the Cap and the Rhetoric]]></title>
+    <link href="http://mishrarohit.github.io/blog/2012/10/08/dear-arvind-please-chuck-the-cap-and-the-rhetoric/"/>
+    <updated>2012-10-08T05:28:45+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2012/10/08/dear-arvind-please-chuck-the-cap-and-the-rhetoric</id>
+    <content type="html"><![CDATA[<p>Like many Indians, I have great hopes from <a href="http://en.wikipedia.org/wiki/Arvind_Kejriwal">Arvind Kejriwal</a>.  He seems ambitious, genuine and fresh. He has all the makings of a leader that we have been desperately looking for. His entry in active politics is one of the rare good things to happen in Indian politics lately.</p>
+
+<p>However,  Kejriwal needs to transform himself from an activist to a leader. I didn&rsquo;t agree with his <a href="http://indiatoday.intoday.in/story/team-anna-member-arvind-kejriwal-health-worsens-fast-entered-day-8/1/211253.html">&lsquo;fast-unto-death&rsquo;</a> for getting Lokpal Bill passed. As Dr. B.R. Ambedkar said, Indians should quit strikes and anshans in favor of  constitutional methods. Arvind&rsquo;s <a href="http://www.hindustantimes.com/India-news/NewDelhi/Kejriwal-associates-burn-Delhi-electricity-bills/Article1-941179.aspx">call to people of Delhi</a> to not pay electricity will achieve little beyond making headlines. India is paying heavily for populist economics, via subsidies and inefficient government programs. We don&rsquo;t want a new leader to continue with the same populist pandering that the old political class has done forever.</p>
+
+<p><a href="http://twitter.com/acorn/status/254936984018120704">http://twitter.com/acorn/status/254936984018120704</a></p>
+
+<p>Kejriwal <a href="http://iacmumbai.org/web/index.php/news-media/241-arvind-kejriwal-begins-civil-disobediance-movement-protest-delhi-power-hike">says that</a> the power tariffs were to be slashed, but weren&rsquo;t due to the nexus between the Delhi Government and the private power operators. His claims may be true, and he should build public opinion, expose this nexus instead of doing gimmicks like burning bills in front of the media.</p>
+
+<p>[caption id=&ldquo;attachment_244&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;650&rdquo;]<a href="http://www.rohitmishra.me/blog/wp-content/uploads/2012/10/kejriwal-6500210.jpg"><img src="http://www.rohitmishra.me/blog/wp-content/uploads/2012/10/kejriwal-6500210.jpg" alt="Kejriwal with his new cap" /></a> Kejriwal with his new cap[/caption]</p>
+
+<p>Also, Kejriwal should stop wearing his iteration of the Gandhi-Anna Hazare cap. It is just a reminder of the farce that the other politicians do by sticking to starched white kurtas, invoking an unconscious connection with the leaders who fought for India&rsquo;s independence, while looting India of its resources. The common Indian that Arvind is trying to represent, doesn&rsquo;t wear a cap. Neither Arvind himself wore a Gandhi cap, till the launch of the Jan Lokpal movement.</p>
+
+<p>In the mean time, we hear little from him on his views on reforms, FDI, foreign affairs, subsidies and other issues. He is not an anti-corruption activist only anymore. He is trying to become a mass leader. The mass needs to know what he thinks before it can trust him.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How the Government Is Fooling Us on the Question of Auctions]]></title>
+    <link href="http://mishrarohit.github.io/blog/2012/09/28/how-the-government-is-fooling-us-on-the-question-of-auctions/"/>
+    <updated>2012-09-28T20:29:59+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2012/09/28/how-the-government-is-fooling-us-on-the-question-of-auctions</id>
+    <content type="html"><![CDATA[<p>India has had two major scams in the past few years - the <a href="http://en.wikipedia.org/wiki/2G_spectrum_scam">2G spectrum scam</a> and the <a href="http://en.wikipedia.org/wiki/Indian_coal_allocation_scam">coal block allocation scam</a>. The 2G spectrum scam was ball parked in to a  range from $ 5 - 31 billions. The CAG report tabled in the Parliament pegged losses from coal block allocation at $33 billion.</p>
+
+<p>On February 2, 2012, the Supreme Court <a href="http://articles.timesofindia.indiatimes.com/2012-02-02/india/31016262_1_spectrum-licences-2g-spectrum-allotment-case">blew away the charade</a> put up by the Government, when it declared the spectrum allocation as <em>&ldquo;unconstitutional and arbitrary&rdquo;.</em> The Supreme Court quashed all the allocated spectrum licenses and <em> </em>asked the government to conduct fresh auctions.</p>
+
+<p>In the meanwhile, the <a href="http://www.cag.gov.in/">Comptroller and Auditor General of India (CAG)</a> further blamed the Government for inefficient allocation of coal blocks. After the opposition complained about corruption, a CBI inquiry has been set up. The alleged coal allocation scam even involves the office of Prime Minister Manmohan Singh.</p>
+
+<p>Many have argued why the government did not choose to auction scarce national resources like telecom spectrum and coal blocks in the first place. The Government sent a Presidential reference to the Supreme Court for clarification on its opinion on auctions. <a href="http://www.business-standard.com/india/news/auction-notonly-permissible-way-to-disposenatural-resources-says-sc/487902/">In an expected reply,</a> the Supreme Court said</p>
+
+<blockquote><p>auctions are not the only permissible method for disposal of natural resources, across all sectors and in all circumstances.</p></blockquote>
+
+<p><a href="http://www.moneycontrol.com/news/business/fm-sibal-laud-sc-opinion-say-2g-auction-to-go-as-planned_762994.html">The Government is claiming its stand</a> has been vindicated that they were justified in not auctioning these resources in favor of common good. In a joint press conference few minutes back, the ministers for Finance, Telecom and Law stated how their stand was vindicated about not choosing auctions. They quoted various instances in the SC judgement which justified their opinion.</p>
+
+<p>But, it is sad to see the Government put up another gimmick instead of accepting the blatant loot of resources that it allowed. The SC judgement on telecom spectrum made clear the corruption by A. Raja and several telecom executives. Many reports in the media have completely exposed the Government&rsquo;s claim of common good.</p>
+
+<p>To say that auctions should be one and only route to distribute national resources would be unwise and intrusion of the policy  making powers of the Government. At the same time, the Government cannot wash off its hands from its responsibility to explain to the country what common good they saw in giving away scare resources to fly-by-night operators who in turn have made a huge profit by selling these resources in the open market. In this press conference, none of the ministers quoted this important part of the judgement.</p>
+
+<blockquote><p>when such a policy decision is not backed by a social or welfare purpose, and precious and scarce natural resources are alienated for commercial pursuits of profit-maximising private entrepreneurs, adoption of means other than those that are competitive and maximise revenue may be arbitrary and face the wrath of Article 14 (right to equality) of the Constitution</p></blockquote>
+
+<p>A smug Kapil Sibal, the Minister for Communications &amp; IT, didn&rsquo;t justify <a href="http://www.thehindubusinessline.com/todays-paper/article2325809.ece?ref=archive">his famous <strong>&ldquo;zero loss&#8221; </strong></a>in 2G spectrum allocation comment made last year before the SC judgement came.</p>
+
+<p>Ordinary Indians still have faith in the higher judiciary. But, we should also be careful not to allow politicians to score points by interpreting a SC judgement to justify their nefarious motives.</p>
+
+<p>NDTV&rsquo;s Sreenivasan Jain exposed the corruption in coal allocation both in the Congress and the BJP in his show &ldquo;Truth vs Hype&rdquo;. (<a href="http://www.ndtv.com/video/player/truth-vs-hype/truth-vs-hype-of-coal-gate-part-i/235426">Part 1</a> | <a href="http://www.ndtv.com/video/player/truth-vs-hype/truth-vs-hype-coal-gate-the-all-party-scam-part-ii/245145?pfrom=home-topstories">Part 2</a>) It clearly shows how the then Coal Secretary P C Parikh&rsquo;s call for transparent auction of coal blocks felt on deaf ears in the PMO, which stalled the policy change to the benefit of the companies which were granted coal blocks.   Part 2 shows the story of Subodh Kant Sahai, Union Tourism Minister from Jharkhand who lobbied for coal mines to be allotted to his brother&rsquo;s company. Also, a story from Chattisgarh showing how Coal-gate has been a bi-partisan scam with involvement from both the Congress and the BJP.</p>
+
+<p>Considering the deep involvement of both the Congress and the BJP, it is highly unlikely that the Coal Scam will see a similar result as the 2G Scam unless the Supreme Court strictly directs the CBI. But, at the very least, we, the ordinary people of this country shouldn&rsquo;t fall in to the bait of these politicians who first facilitate these scams, and then justify their actions.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Republicans Scare Me About the Future of Democracy]]></title>
+    <link href="http://mishrarohit.github.io/blog/2012/09/03/the-republicans-scare-me-about-the-future-of-democracy/"/>
+    <updated>2012-09-03T01:38:25+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2012/09/03/the-republicans-scare-me-about-the-future-of-democracy</id>
+    <content type="html"><![CDATA[<p>As a freshman in college 4 years back, I was <a href="http://www.rohitmishra.me/blog/2008/11/08/obama-usa-is-back/">rooting big time</a> for Obama. In the process of doing a project on the life of Dr. King, I had read a lot on the movement for equality for Blacks in USA. When Obama was elected President, I saw that as a victory for democracy. People were able to get over their narrow prejudices of  color and ethnicity to choose the best man. It was a high-point for democracy. If India is ever to become a country that we dream of, this will be one of the most crucial requirements. Voters will need to vote on the basis of issues, and not on the basis of caste or religion.</p>
+
+<p>To say that I was shocked by the Republican agenda in 2008 will be a big understatement. Their denial of climate change and slogans like &ldquo;<a href="http://en.wikipedia.org/wiki/Drill,_baby,_drill">Drill, Baby. Drill&#8221;</a> made me wonder whether these guys never had those classes on Environmental Science in their schools. I still don&rsquo;t understand how one of the two main political parties in a country with a high rate of literacy and industrial development can be so blatantly anti-scientific. How do they get away with this?</p>
+
+<p>As the election season arrives again in USA, I see no change in the attitude of the Republican leadership. Their callous and boisterous stance on environment continues in the same tone as before. But, the Republican stance on abortion is even more unsettling. I wonder how someone like Todd Akin can remain a viable political figure after saying that <a href="http://en.wikipedia.org/wiki/Todd_Akin_%27legitimate_rape%27_and_pregnancy_comment_controversy">&lsquo;legitimate&rsquo; rape seldom results in pregnancy. </a> Who knows what the fuck &ldquo;legitimate rape&rdquo; means. Republicans have criticized Akin, but they keep pushing for their so called &ldquo;pro-life&rdquo; campaign, which intends to put massive restrictions on abortion and sex education in schools. In his column in the New York Times, <a href="http://www.nytimes.com/2012/09/02/opinion/sunday/kristof-scaring-the-voters-in-the-middle.html">Nicholas Kristof writes</a> about the confounding stance that the Romney campaign has taken on issues regarding abortion.</p>
+
+<p>Here in India, we often see politicians  getting away with everything under the sun on the basis of propaganda that their audience believes in without any questions. What the Republicans show us that this will continue unabated. To draw an analogy, no matter how badly the Congress party messes up further in the remaining period of this government, BJP will focus on Hinduism instead of the ills of this regime in Delhi.</p>
+
+<p>Hopefully, we will improve on ethics and not let gangsters contest elections in future, but that is all that we should hope for. This notion that we will start choosing better leaders as India gets more educated is false.</p>
+
+<p>Is there a democracy where the political parties focus on genuine issues, and not use propaganda which says a big &ldquo;fuck you&rdquo; to science? I will keep looking for one.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Favorite Ads: Bajaj Avenger]]></title>
+    <link href="http://mishrarohit.github.io/blog/2012/08/31/favorite-ads-bajaj-avenger/"/>
+    <updated>2012-08-31T06:44:05+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2012/08/31/favorite-ads-bajaj-avenger</id>
+    <content type="html"><![CDATA[<p>Advertisements, like most other forms of art, range from the extremely impressive to the disdainful. But, I have always been intrigued by how ad-makers come up with these novel concepts which need to catch your attention and portray the product in a minute or two.</p>
+
+<p>I have <a href="http://www.rohitmishra.me/blog/2012/01/06/think-different/">earlier wrote</a> about what is my favorite ad till day  - Apple&rsquo;s &lsquo;Think Different&rsquo; ad. Here is another of my favorites - the &lsquo;Feel like God&rsquo; campaign from the Indian bike manufacturer <a href="www.bajajauto.com">Bajaj Auto</a> for their <a href="http://www.bajajauto.com/avenger_index.asp">Avenger</a> cruiser.</p>
+
+<p><a href="http://www.youtube.com/watch?v=y10OJ1pNW3o">http://www.youtube.com/watch?v=y10OJ1pNW3o</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[What Is Work?]]></title>
+    <link href="http://mishrarohit.github.io/blog/2012/08/30/what-is-work/"/>
+    <updated>2012-08-30T21:50:39+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2012/08/30/what-is-work</id>
+    <content type="html"><![CDATA[<p><a href="http://harjtaggar.com/">Harj Taggar</a>, partner at Y Combinator,  wrote a <a href="http://blog.harjtaggar.com/time">post yesterday</a> on how he got rid of his addiction to email by deleting the mail app on his phone. He says</p>
+
+<blockquote></blockquote>
+
+<p>The least obvious consequence has been the lengthening of my concentration span, even when I’m at my desk with easy access to my email. I’ve long realized that email is the biggest killer of my productivity e.g. if I’m trying to code I never stop to go and play video games but I did stop and check my email because I could justify it as work (“work” that is both significantly easier and provides a quicker dopamine hit than trying to solve a hard problem). But once I rid myself of the habit of checking email constantly on my phone, suddenly I had less of a habitual urge to check my email in general. It feels wonderful.</p>
+
+<p>I believe this pseudo-work is the biggest obstacle for anyone trying to do something useful. I was a victim of this addiction myself. For a long time, I considered checking Techcrunch, Hacker News, Twitter as part of work.  It is not work. Nothing apart from the next item on your to-do list, Trello, Asana etc is work.</p>
+
+<p>Do a favor to yourself. Stop believing in this broad definition of work.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[United Airlines Should Pay Dearly for Fucking Up With Their Customers]]></title>
+    <link href="http://mishrarohit.github.io/blog/2012/08/14/united-airlines-should-pay-dearly-for-fucking-up-with-their-customers/"/>
+    <updated>2012-08-14T20:37:08+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2012/08/14/united-airlines-should-pay-dearly-for-fucking-up-with-their-customers</id>
+    <content type="html"><![CDATA[<p>Airlines and telecom companies are eerily same when it comes to dealing with customers - total indifference. There is a horrible story at <a href="http://bobsutton.typepad.com/my_weblog/2012/08/united-airlines-lost-my-friends-10-year-old-daughter-and-didnt-care.html">this link</a> on how United Airlines left a 10-year child who was traveling on their &lsquo;unaccompanied minor&rsquo; program (costs $99 ) unattended for a long time.</p>
+
+<blockquote><p>United was flying Phoebe as an unaccompanied minor on June 30th, from San Francisco to Chicago, with a transfer to Grand Rapids.  No one showed-up in Chicago to help her transfer, so although her plane made it, she missed the connection. Most crucially, United employees consistently refused to take action to help assist or comfort Phoebe or to help her parents locate her despite their cries for help to numerous United employees.</p></blockquote>
+
+<p>This is not about fancy customer service names or outsourcing. Business is a human endeavor, and this incidence shows how companies like United have become totally inhuman. I am sure there will be a few employees at United who would have done the right thing but, the those involved here didn&rsquo;t and there is not even an official apology till now.</p>
+
+<p>The worrying part is how companies like United get away with things like these. A couple of years back, they had a lot of abd PR when they broke a passenger&rsquo;s guitar. The guy made a video on it,which went viral.</p>
+
+<p><a href="http://www.youtube.com/watch?v=5YGc4zOqozo">http://www.youtube.com/watch?v=5YGc4zOqozo</a></p>
+
+<p>It shows how the average consumer doesn&rsquo;t give that high priority to consumer service than to say saving a few dollars. I don&rsquo;t understand what has led to this indifference in our minds towards customer service.</p>
+
+<p>As an example, I always use <a href="http://www.cleartrip.com">Cleartrip</a> for travel/hotel bookings. They are not the cheapest, but I have seen several incidents where the founders have taken it upon themselves to ensure that their customer doesn&rsquo;t face a problem. Also, they don&rsquo;t put you on hold for minutes when you make a call to their helpline.</p>
+
+<p>I  hope more companies use better service as a selling point.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Women in India]]></title>
+    <link href="http://mishrarohit.github.io/blog/2012/07/13/women-in-india/"/>
+    <updated>2012-07-13T18:09:32+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2012/07/13/women-in-india</id>
+    <content type="html"><![CDATA[<p>A couple of minutes after waking up this morning, this is <a href="http://www.ndtv.com/article/india/guwahati-s-shame-30-men-seen-molesting-girl-just-four-arrested-242840">what I saw</a>.</p>
+
+<p><a href="http://www.youtube.com/watch?v=VjiKPnt_LM0">http://www.youtube.com/watch?v=VjiKPnt_LM0</a></p>
+
+<p>A 19 year old  Class 11 girl was beaten, stripped and molested on the streets of Guwahati while she was returning from a party at 10pm in the night. The shame of India is that a significant number of people will rationalize this incident by focusing on a girl partying, what she was wearing, who she was with, and not on what happened with her. Some news channel reporters shot this incident, and it went viral on the net. 96 hours have passed since the incident, and only 4 people from this mob have been arrested.</p>
+
+<p>This is one of those animals -<a href="https://www.facebook.com/amar.jyotikalita.7">Amar Jyoti Kalita </a> who, from his Facebook profile, works at an Assam Govt. company called Amtron. He has apparently been arrested. If you can fuck his life, please do so. Thanks.</p>
+
+<p>There is a sad truth about what happened - though it outrages and saddens me, it doesn&rsquo;t surprise me. Look at this Hindustan times headline on January 1, 2008 - <a href="http://www.hindustantimes.com/News-Feed/India/Mob-molests-2-women-on-New-Year-s-Day/Article1-266701.aspx">Mob molests 2 women on New Year’s Day</a> . This was on New Year&rsquo;s eve. The women, part of the same family, were returning after celebrating New Year at J W Mariott hotel, and were accompanied by <a href="http://www.expressindia.com/latest-news/Mob-Molestation-I-want-to-get-over-the-horror/257230/">one of the victim&rsquo;s husband</a>.  A year before that, something similar happened at the Gateway of India in Mumbai. Similar to today&rsquo;s incident, that too was recorded and circulated. Lot of outrage and anger followed. Some of those beasts, all teenagers, were  arrested. To my knowledge, none of the perpetrators were convicted or their conviction wasn&rsquo;t news-worthy.</p>
+
+<p>Unlike most other things, one cannot blame this only on the government. Yeah, police response can be faster and they can go harder against these beasts, but one cannot expect the police to patrol all the streets all the time. The main problem is that when an average Joe sees an incident like this, he decides to walk away. Not help the victims, not call the police - just walk away. That is how 2 young people - <a href="http://www.ndtv.com/article/cities/keenan-reuben-case-accused-laughed-when-identified-150534">Keenan-Reuben</a>, died in Andheri, Mumbai last year when they fought people eve-teasing their girlfriends. Bystanders thought it was none of their business as the two were beaten to death.</p>
+
+<p>What should one do? Not go out on the streets with girls. Carry guns all the time. The solution at the individual level are pretty trivial. This is where the government can do its due - frame tough laws, and hang these beasts. These people shouldn&rsquo;t be treated like humans. We should do what we do to animals who go crazy - shoot them.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Understanding Linked Data and Semantic Web]]></title>
+    <link href="http://mishrarohit.github.io/blog/2012/06/11/understanding-linked-data-and-semantic-web/"/>
+    <updated>2012-06-11T10:39:10+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2012/06/11/understanding-linked-data-and-semantic-web</id>
+    <content type="html"><![CDATA[<p>I have found the concept of linked data attractive. It seems like the right way to take the web forward. As part of brainstorming things for Allotrop, I wanted to understand the different components of  the semantic web.</p>
+
+<p>You should start with this TED talk by <a href="http://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a>.</p>
+
+<p><a href="http://www.youtube.com/watch?v=OM6XIICm_qo">http://www.youtube.com/watch?v=OM6XIICm_qo</a></p>
+
+<p>There is a free book available at <a href="http://www.linkeddatabook.com">linkeddatabook.com</a> which goes in the details of the various things that need to come together for linked data to work. It doesn&rsquo;t has any prerequisite, so if you want to get familiar with the idea of semantic web, then it is a good read.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[If Google Had Shown Some Love to Google Talk]]></title>
+    <link href="http://mishrarohit.github.io/blog/2012/05/08/if-google-had-shown-some-love-to-google-talk/"/>
+    <updated>2012-05-08T04:44:29+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2012/05/08/if-google-had-shown-some-love-to-google-talk</id>
+    <content type="html"><![CDATA[<p><a href="http://www.rohitmishra.me/blog/wp-content/uploads/2012/05/gtalk.jpg"><img src="http://www.rohitmishra.me/blog/wp-content/uploads/2012/05/gtalk.jpg" alt="GTalk" /></a>Another new update to Hangouts, now you can <a href="http://googleblog.blogspot.in/2012/05/google-hangouts-on-air-broadcast-your.html">broadcast your hangouts </a>to people everywhere. Cool. I don&rsquo;t use hangouts, but I think it is a cool feature and will give it a try sometime. What I do use often is <a href="http://www.google.com/talk/">Google Talk</a>. To be clear, I converse with very few people on Google Talk. The majority of the conversations happen on Facebook and <a href="http://www.whatsapp.com/">WhatsApp</a>. I am an Ubuntu user and the Skype client Linux sucks, so no Skype for me.</p>
+
+<p>I remember distinctly when GTalk was the main IM client for most. Yahoo Messenger, its main competitor, was big and bloated. Like most things Google at that time, GTalk and its GMail plugin were fast, clean and reliable.</p>
+
+<p>Somehow, Google just lost love for GTalk. The Windows client did not get any update and the service became slow, buggy and unreliable. On my Android phone, the Talk client loses messages in between. The GMail Talk plugin keeps playing its own game of  disconnected &ndash; connecting &ndash; yeah, we are back - disconnected. To my knowledge, there isn&rsquo;t any good iPad app for GTalk. Compare that to the omnipresent WhatsApp, and the <a href="http://techcrunch.com/2012/05/04/facebook-messenger-read-receipts/">ever improving</a> Facebook Messenger, and you will wonder why is Google not interested in Talk.</p>
+
+<p>To my naive mind earlier, the reason for Google&rsquo;s lack of interest was that personal communications are not a big enough market. But, Apple&rsquo;s launch of Facetime and iMessage, Microsoft&rsquo;s acquisition of Skype, Facebook&rsquo;s resolute efforts on Messenger, Samsung&rsquo;s ChatOn etc have proved that my naive assumption was entirely incorrect.</p>
+
+<p>Hangouts are one of the few/only interesting thing about Google+  right now. Instead  of building this we-will-kill Facebook product, what if Google had iterated on Talk and become the dominant online conversation tool.</p>
+
+<p>I will update the post if I find any reason behind what happened.</p>
+
+<p><em>Photo: <a href="http://www.flickr.com/photos/hippydream/385979449/in/photostream/">flickr/hippydream</a></em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Moving Wordpress From Dreamhost to Linode]]></title>
+    <link href="http://mishrarohit.github.io/blog/2012/04/16/moving-wordpress-from-dreamhost-to-linode/"/>
+    <updated>2012-04-16T08:04:25+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2012/04/16/moving-wordpress-from-dreamhost-to-linode</id>
+    <content type="html"><![CDATA[<p>I talked about the reasons to move to<a href="http://www.linode.com/?r=bcc2d975734b43800b9dd375fa8356d2dbd71cc8"> Linode</a> in <a href="http://www.rohitmishra.me/blog/2012/04/14/hello-linode/">my post</a> yesterday. Now, I will mention the resources I used to move my Wordpress blog over to Linode.</p>
+
+<p>You need to start by exporting your Wordpress database to a sql file . You can do it using phpMyAdmin.</p>
+
+<p>Next, you need to copy your wp-content folder using a FTP program like FileZilla.</p>
+
+<p>I then followed this <a href="http://www.raywenderlich.com/812/how-to-move-your-wordpress-blog-to-linode">excellent tutorial</a> for moving a Wordpress blog to Linode. This is a comprehensive tutorial which will guide you from the first step of signing up for Linode .</p>
+
+<p>There are some errors and typos in that tutorial that you should take care of.</p>
+
+<p>The correct syntax for importing your old wordpress database is</p>
+
+<pre><code>$ mysql -u username -p -h localhost Database-Name &lt; data.sql
+</code></pre>
+
+<p>If you have a dedicated database server, replace localhost hostname with with actual server name or IP address. If while creating the user for the database at mysql prompt, you didn&rsquo;t add the &ldquo; @localhost &rdquo; part, remove &ldquo; -h localhost&rdquo;.</p>
+
+<p>While editing wp-config.php, make sure that you enter the same prefix as in your old wordpress database in $WP_Prefix variable. You can find your old wp-prefix by examining the table names in your wordpress database.</p>
+
+<p>In the tutorial linked above, there is a mistake in <strong>#protect wpconfig.php</strong>. It should be:</p>
+
+<pre><code># protect wpconfig.php
+
+order allow, deny
+deny from all
+</code></pre>
+
+<p>The Wordpress specific settings depend on how you have setup your permalinks. You will find those settings at Settings->Permalinks in your Wordpress dashboard.</p>
+
+<p>If you are hosting your Wordpress blog in a sub-directory  like /blog, you should place your.htaccess file in /blog and not in /.</p>
+
+<p>The uploads folder should be <em>chmoded </em>to 775 and not 755.</p>
+
+<p>In this configuration, you won&rsquo;t be able to update Wordpress and its plugins from within the dashboard. Wordpress will prompt you to enter FTP credentials. Don&rsquo;t do that. The problem is that Wordpress runs under apache&rsquo;s username, which is www-data, and this user doesn&rsquo;t has permissions to write to your wordpress folder. The secure way is to do updates manually from the shell. If you want  to be able to do it from the DashBoard, you should refer to <a href="http://www.linode.com/irc/logs/linode-archive/linode.log-2011-03-12">this IRC log.</a></p>
+
+<p>Basically, before updating, you need to run</p>
+
+<pre><code>chown -R www-data /path/to/the/wordpress/install/on/your/filesystem/
+</code></pre>
+
+<p>Revert it back to the default user after updating.</p>
+
+<p>Hope these steps help you in moving Wordpress to Linode. If there is anything that I am doing wrong, do point out in the comments.</p>
+
+<p>If you are feeling great, please signup to Linode using <a href="http://www.linode.com/?r=bcc2d975734b43800b9dd375fa8356d2dbd71cc8">my referral link</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hello Linode]]></title>
+    <link href="http://mishrarohit.github.io/blog/2012/04/14/hello-linode/"/>
+    <updated>2012-04-14T09:13:33+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2012/04/14/hello-linode</id>
+    <content type="html"><![CDATA[<p>I have shifted to <a href="http://www.linode.com/?r=bcc2d975734b43800b9dd375fa8356d2dbd71cc8">Linode</a> from a <a href="http://www.dreamhost.com">Dreamhost</a> shared account. My Dreamhost account was up for renewal,  and I decided that this is a good time to switch to a <a href="http://en.wikipedia.org/wiki/Virtual_private_server">VPS</a> . There are a couple of reasons behind that. First, I want to get some hands-on experience running a server.  Second, Dreamhost doesn&rsquo;t play well with Django or Ruby (<em>anything except PHP, I guess), </em>which I need for my startup <a href="http://www.allotrop.com">Allotrop</a><em>.</em></p>
+
+<p>My option was to keep the blogs on Dreamhost and then use <a href="http://aws.amazon.com/">AWS</a> for my startup. Right  now, I am working alone on Allotrop, and I don&rsquo;t want to spend the extra hours learning to manage AWS. Over-optimization is one of the more common mistakes we do. I will shift to Ec2 when needed. Also, after doing a fair bit of research, I found out that a cloud service like AWS makes sense once you expect traction. Allotrop is a few months away from launch, and I won&rsquo;t spend any extra money than I absolutely need to.</p>
+
+<p>By the way, if you are just starting out, and want to find a cheap shared host for your Wordpress and class projects, go for <a href="http://www.webfaction.com/">WebFaction</a>. It has awesome support for Django, Rails and other application frameworks.</p>
+
+<p><a href="http://upload.wikimedia.org/wikipedia/en/1/1c/Linode_logo.png"><img src="http://upload.wikimedia.org/wikipedia/en/1/1c/Linode_logo.png" alt="Linode logo" /></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Someone Please Fix Comments]]></title>
+    <link href="http://mishrarohit.github.io/blog/2012/03/28/someone-please-fix-comments/"/>
+    <updated>2012-03-28T02:04:40+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2012/03/28/someone-please-fix-comments</id>
+    <content type="html"><![CDATA[<p><a href="http://www.rohitmishra.me/blog/wp-content/uploads/2012/03/missmiah_4191979465_comments.jpg"><img src="http://www.rohitmishra.me/blog/wp-content/uploads/2012/03/missmiah_4191979465_comments.jpg" alt="" /></a>I think comments are an important part of web. What is said there is as important as the actual post. But, comments are broken, horribly. I think they work well in sites with less traffic. But, for more mainstream sites, they are useless. I have few specific gripes with the current systems.</p>
+
+<ul>
+<li><p>Why can&rsquo;t site push to top or highlight the comments made by OP, my friends, and people who I have subscribed to on Facebook or follow on Twitter. I will be more interested in what they have to say.</p></li>
+<li><p>Give some method for the OP to highlight those threads which he finds more interesting.</p></li>
+<li><p>Also, pingbacks should work much better. Instead of just showing me a link, show me a snippet of the post. How am I supposed to know what to make out of it?</p></li>
+<li><p>No matter how good the tools get, comments will always depend on what kind of environment and level of debate people keep up on their sites. Fred Wilson&rsquo;s <a href="http://www.avc.com">AVC .com</a> has the best comment network as far as I have seen.</p></li>
+</ul>
+
+
+<p>I have primarily used <a href="http://www.disqus.com">Disqus</a> and Facebook comments and the comment system used by Wordpress, Tumblr etc. I am not aware of what Echo and IntenseDebate are up to.</p>
+
+<p>Disqus is coming up with what they say is a new version of their product called <a href="http://blog.disqus.com/post/19693554817/disqus-labs">Disqus 2012</a>. Hope it fulfills few of the things on my list.</p>
+
+<p><em>Photo Credit: <a href="http://www.flickr.com/photos/missmiah/4191979465/in/photostream/">flickr/missmiah</a></em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[I Need My Change]]></title>
+    <link href="http://mishrarohit.github.io/blog/2012/03/17/i-need-my-change/"/>
+    <updated>2012-03-17T04:34:27+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2012/03/17/i-need-my-change</id>
+    <content type="html"><![CDATA[<p><a href="http://www.rohitmishra.me/blog/wp-content/uploads/2012/03/no-change.jpg"><img src="http://www.rohitmishra.me/blog/wp-content/uploads/2012/03/no-change.jpg" alt="" /></a></p>
+
+<p>The second line translates to</p>
+
+<blockquote><p>All shopkeepers give this [the candies] instead of a 50paise or 1 rupee coin.</p></blockquote>
+
+<p>I came across <a href="https://www.facebook.com/photo.php?fbid=346364805406933&amp;set=a.300054006704680.67810.115989455111137&amp;type=1&amp;theater">this image</a> on Facebook . Like many others, I am also irritated by Â the replacement of good old 50p, 1 rupee coins with candies. I hear rumors that this is due to the apparent crisis of coins in circulation in the market. It may be true, or this may be a nice trick to increase the revenue of your friendly neighborhood Â shop.</p>
+
+<p>Whatever, I can&rsquo;t wait for the next generation of mobile money to come here. Will <a href="https://squareup.com/">Square</a> be the answer?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Why Shutting Down Oink Is Not a Good Move]]></title>
+    <link href="http://mishrarohit.github.io/blog/2012/03/15/why-shutting-down-oink-is-not-a-good-move/"/>
+    <updated>2012-03-15T20:58:45+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2012/03/15/why-shutting-down-oink-is-not-a-good-move</id>
+    <content type="html"><![CDATA[<p><img src="http://tctechcrunch2011.files.wordpress.com/2011/11/oinkshot.png?w=192" alt="oinkshot" /><a href="http://www.oink.com">Oink</a> is a service, which lets you &ldquo;rate everything&rdquo;. Â Built by <a href="https://plus.google.com/u/0/110318982509514011806/posts">Kevin Rose</a>&rsquo;s (of Digg fame) <a href="http://milkinc.com/">Milk Labs</a>, Oink was launched in November, 2011. Rose&rsquo;s popularity drove the app to <a href="http://thenextweb.com/apple/2011/12/07/kevin-roses-oink-hits-150000-app-store-downloads-in-just-over-a-month/">150k </a>downloadsÂ by December.</p>
+
+<p>Today, Milk Labs announced that it is <a href="http://www.oink.com">closing down Oink </a>and that users can download the data.</p>
+
+<blockquote><p>We startedÂ <a href="http://milkinc.com/">Milk Inc.</a>Â (the company behind Oink) to rapidly build and test out new ideas. Oink was our first test and, in preparing to move onto the next project, we&rsquo;ve decided to shut it down to help focus our efforts.</p></blockquote>
+
+<p>There are a couple of problems:</p>
+
+<p>a) What can you do with the downloaded data? Can you put it in Foursquare, Foodspotting etc? Shouldn&rsquo;t Oink at least write some documentation for developers on how to use this data?</p>
+
+<p>b) Aren&rsquo;t we burning up users by asking them to rate things and then leaving them stranded after a few months? Rose&rsquo;s popularity will generate enough media that users will sign up for his next &ldquo;experiment&rdquo;, but how difficult does this make getting new users for a startup with non-celebrity founders.</p>
+
+<p>I am currently reading Eric Ries&#8217; [The Lean Startup](<a href="http://www.amazon.com/gp/product/0307887898/ref=as_li_ss_tl?ie=UTF8&tag=rohmissweb-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0307887898">The Lean Startup: How Today&rsquo;s Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses</a><img src="http://www.assoc-amazon.com/e/ir?t=rohmissweb-20&l=as2&o=1&a=0307887898" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> ) and I agree with his beliefs about going as fast as possible through the build-measure-learn cycle. But, Ries tells us to pivot if we learn that our idea is not working. I am not sure what Milk Labs is doing here.</p>
+
+<p>There is nothing unique about Milk Labs. Every startup wants to rapidly build and test new ideas. But, you also persevere with your startup. Work with your early adopters to improve the app. If you are so specific about just &lsquo;testing&rsquo; an idea, then I think they should have mentioned in bold letters, that this is an app for testing purposes only. Right now, Oink seems as if it was built for collecting data.</p>
+
+<p>I will start work onÂ <a href="http://www.allotrop.com">Allotrop</a>, which will lets user list the things that they love using, seeing, eating etc. I know many startups and established companies are doing similar things, but this is still an unsolved problem. So, I will do my best to solve this problem. Like every other startup, I will also pivot if what I build doesn&rsquo;t work. But, I will do my best to support my users because every second that they would have spent on Allotrop is precious. It means something.</p>
+
+<p>More than good examples, I look for bad examples. I decide that no matter what happens, I will never do something like this. For me, Oink&rsquo;s legacy will be of a bad example.</p>
+
+<p><strong>Update: </strong>In theÂ <a href="http://news.ycombinator.com/item?id=3704110">Hacker News thread</a> of the original announcement, many people have commended Rose for sticking to what he said and closing down Oink when it didn&rsquo;t get traction. They argue that investors invested their money in Milk Inc., the parent company and not Oink. That is sad about our time. We care more about investors&#8217; return than users. You don&rsquo;t build a startup for investors&#8217; returns. You build it for solving your users&#8217; problems and giving them a great experience. I strongly recommend reading <a href="http://www.nytimes.com/2012/03/14/opinion/why-i-am-leaving-goldman-sachs.html">this post</a> by ex-Goldman Sachs executive Greg Smith on why he left the investment firm.</p>
+
+<p><em>Tip: <a href="http://news.ycombinator.com/item?id=3704110">Hacker News</a>Â </em></p>
+]]></content>
+  </entry>
+  
+</feed>

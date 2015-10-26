@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Tech | Rohit Mishra]]></title>
+  <link href="http://mishrarohit.github.io/blog/categories/tech/atom.xml" rel="self"/>
+  <link href="http://mishrarohit.github.io/"/>
+  <updated>2015-10-27T01:29:39+05:30</updated>
+  <id>http://mishrarohit.github.io/</id>
+  <author>
+    <name><![CDATA[Rohit Mishra]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[If Google Had Shown Some Love to Google Talk]]></title>
+    <link href="http://mishrarohit.github.io/blog/2012/05/08/if-google-had-shown-some-love-to-google-talk/"/>
+    <updated>2012-05-08T04:44:29+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2012/05/08/if-google-had-shown-some-love-to-google-talk</id>
+    <content type="html"><![CDATA[<p><a href="http://www.rohitmishra.me/blog/wp-content/uploads/2012/05/gtalk.jpg"><img src="http://www.rohitmishra.me/blog/wp-content/uploads/2012/05/gtalk.jpg" alt="GTalk" /></a>Another new update to Hangouts, now you can <a href="http://googleblog.blogspot.in/2012/05/google-hangouts-on-air-broadcast-your.html">broadcast your hangouts </a>to people everywhere. Cool. I don&rsquo;t use hangouts, but I think it is a cool feature and will give it a try sometime. What I do use often is <a href="http://www.google.com/talk/">Google Talk</a>. To be clear, I converse with very few people on Google Talk. The majority of the conversations happen on Facebook and <a href="http://www.whatsapp.com/">WhatsApp</a>. I am an Ubuntu user and the Skype client Linux sucks, so no Skype for me.</p>
+
+<p>I remember distinctly when GTalk was the main IM client for most. Yahoo Messenger, its main competitor, was big and bloated. Like most things Google at that time, GTalk and its GMail plugin were fast, clean and reliable.</p>
+
+<p>Somehow, Google just lost love for GTalk. The Windows client did not get any update and the service became slow, buggy and unreliable. On my Android phone, the Talk client loses messages in between. The GMail Talk plugin keeps playing its own game of  disconnected &ndash; connecting &ndash; yeah, we are back - disconnected. To my knowledge, there isn&rsquo;t any good iPad app for GTalk. Compare that to the omnipresent WhatsApp, and the <a href="http://techcrunch.com/2012/05/04/facebook-messenger-read-receipts/">ever improving</a> Facebook Messenger, and you will wonder why is Google not interested in Talk.</p>
+
+<p>To my naive mind earlier, the reason for Google&rsquo;s lack of interest was that personal communications are not a big enough market. But, Apple&rsquo;s launch of Facetime and iMessage, Microsoft&rsquo;s acquisition of Skype, Facebook&rsquo;s resolute efforts on Messenger, Samsung&rsquo;s ChatOn etc have proved that my naive assumption was entirely incorrect.</p>
+
+<p>Hangouts are one of the few/only interesting thing about Google+  right now. Instead  of building this we-will-kill Facebook product, what if Google had iterated on Talk and become the dominant online conversation tool.</p>
+
+<p>I will update the post if I find any reason behind what happened.</p>
+
+<p><em>Photo: <a href="http://www.flickr.com/photos/hippydream/385979449/in/photostream/">flickr/hippydream</a></em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hello Linode]]></title>
+    <link href="http://mishrarohit.github.io/blog/2012/04/14/hello-linode/"/>
+    <updated>2012-04-14T09:13:33+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2012/04/14/hello-linode</id>
+    <content type="html"><![CDATA[<p>I have shifted to <a href="http://www.linode.com/?r=bcc2d975734b43800b9dd375fa8356d2dbd71cc8">Linode</a> from a <a href="http://www.dreamhost.com">Dreamhost</a> shared account. My Dreamhost account was up for renewal,  and I decided that this is a good time to switch to a <a href="http://en.wikipedia.org/wiki/Virtual_private_server">VPS</a> . There are a couple of reasons behind that. First, I want to get some hands-on experience running a server.  Second, Dreamhost doesn&rsquo;t play well with Django or Ruby (<em>anything except PHP, I guess), </em>which I need for my startup <a href="http://www.allotrop.com">Allotrop</a><em>.</em></p>
+
+<p>My option was to keep the blogs on Dreamhost and then use <a href="http://aws.amazon.com/">AWS</a> for my startup. Right  now, I am working alone on Allotrop, and I don&rsquo;t want to spend the extra hours learning to manage AWS. Over-optimization is one of the more common mistakes we do. I will shift to Ec2 when needed. Also, after doing a fair bit of research, I found out that a cloud service like AWS makes sense once you expect traction. Allotrop is a few months away from launch, and I won&rsquo;t spend any extra money than I absolutely need to.</p>
+
+<p>By the way, if you are just starting out, and want to find a cheap shared host for your Wordpress and class projects, go for <a href="http://www.webfaction.com/">WebFaction</a>. It has awesome support for Django, Rails and other application frameworks.</p>
+
+<p><a href="http://upload.wikimedia.org/wikipedia/en/1/1c/Linode_logo.png"><img src="http://upload.wikimedia.org/wikipedia/en/1/1c/Linode_logo.png" alt="Linode logo" /></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Someone Please Fix Comments]]></title>
+    <link href="http://mishrarohit.github.io/blog/2012/03/28/someone-please-fix-comments/"/>
+    <updated>2012-03-28T02:04:40+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2012/03/28/someone-please-fix-comments</id>
+    <content type="html"><![CDATA[<p><a href="http://www.rohitmishra.me/blog/wp-content/uploads/2012/03/missmiah_4191979465_comments.jpg"><img src="http://www.rohitmishra.me/blog/wp-content/uploads/2012/03/missmiah_4191979465_comments.jpg" alt="" /></a>I think comments are an important part of web. What is said there is as important as the actual post. But, comments are broken, horribly. I think they work well in sites with less traffic. But, for more mainstream sites, they are useless. I have few specific gripes with the current systems.</p>
+
+<ul>
+<li><p>Why can&rsquo;t site push to top or highlight the comments made by OP, my friends, and people who I have subscribed to on Facebook or follow on Twitter. I will be more interested in what they have to say.</p></li>
+<li><p>Give some method for the OP to highlight those threads which he finds more interesting.</p></li>
+<li><p>Also, pingbacks should work much better. Instead of just showing me a link, show me a snippet of the post. How am I supposed to know what to make out of it?</p></li>
+<li><p>No matter how good the tools get, comments will always depend on what kind of environment and level of debate people keep up on their sites. Fred Wilson&rsquo;s <a href="http://www.avc.com">AVC .com</a> has the best comment network as far as I have seen.</p></li>
+</ul>
+
+
+<p>I have primarily used <a href="http://www.disqus.com">Disqus</a> and Facebook comments and the comment system used by Wordpress, Tumblr etc. I am not aware of what Echo and IntenseDebate are up to.</p>
+
+<p>Disqus is coming up with what they say is a new version of their product called <a href="http://blog.disqus.com/post/19693554817/disqus-labs">Disqus 2012</a>. Hope it fulfills few of the things on my list.</p>
+
+<p><em>Photo Credit: <a href="http://www.flickr.com/photos/missmiah/4191979465/in/photostream/">flickr/missmiah</a></em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Android Is Not Free Courtesy Microsoft]]></title>
+    <link href="http://mishrarohit.github.io/blog/2011/09/29/android-is-not-free-courtesy-microsoft/"/>
+    <updated>2011-09-29T01:49:13+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2011/09/29/android-is-not-free-courtesy-microsoft</id>
+    <content type="html"><![CDATA[<p><a href="http://www.zdnet.com/blog/microsoft/samsung-signs-microsoft-patent-licensing-deal-to-cover-android-devices/10840"><img src="http://www-bgr-com.vimg.net/wp-content/uploads/2011/09/Sad-Android-Robot110902133530.jpg" alt="Sad Android Robot" /></a></p>
+
+<p><a href="http://www.zdnet.com/blog/microsoft/samsung-signs-microsoft-patent-licensing-deal-to-cover-android-devices/10840">ZDNet is reporting</a> that Microsoft has signed a patent licensing agreement with Samsung for the latter&rsquo;s Android phones and tablets. As hard as it is to accept, this has proven Steve Ballmer right where <a href="http://tech.fortune.cnn.com/2010/05/21/steve-ballmers-claim-android-isnt-really-free/">he said that</a> &ldquo;Android is not free. It comes with a patent cost&rdquo;. Â Samsung is not the first to sign such a patent-licensing deal. The other major Android manufacturer HTC and fringe players like Acer and Viewsonic also have<a href="http://www.bgr.com/2011/09/08/microsoft-continues-to-profit-off-android/"> similar licensing deals</a>. I don&rsquo;t know how much HTC or Samsung is paying Microsoft but people have quoted numbers ranging from <a href="http://www.winrumors.com/htc-pays-microsoft-5-per-android-device-generates-more-income-than-windows-phone/">$5 - $12.50 per device</a>. After Samsung licensing Microsoft&rsquo;s patents, I wonder whether Motorola Mobility/Google will be able to win the patent litigation case that they are fighting against Android. I hope that Google wins in the patent lawsuit that they are fighting against Oracle, because if manufacturers have to enter into another licensing agreement with Oracle, then Android may become even costlier than Windows Phone 7. Also, I think Microsoft will lower Windows Phone 7 licensing costs to match that of the Android licensing fee, which currently stands at $15 per device to encourage manufacturers to push WP7 more.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Goodbye Palm !]]></title>
+    <link href="http://mishrarohit.github.io/blog/2011/08/19/goodbye-palm-2/"/>
+    <updated>2011-08-19T08:00:07+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2011/08/19/goodbye-palm-2</id>
+    <content type="html"><![CDATA[<p><a href="http://techcrunch.com/2011/08/18/its-official-hp-kills-off-webos-phones-and-the-touchpad/">Techcrunch is reporting </a>that HP has decided to kill the webOS phones and tablets. I am sad, but not surprised considering headlines like <strong><a href="http://arstechnica.com/gadgets/news/2011/08/best-buy-wants-to-give-up-on-hp-touchpad-has-sold-fewer-than-25000-units.ars">Best Buy asks HP to take back its TouchPads</a></strong> have been hogging the limelight. I remember being Â super excited when I saw the Pre with the webOS for the first time. As for webOS, Â it is just <a href="http://scobleizer.com/2009/01/08/palm-did-what-nokia-rim-and-microsoft-couldnt-build-a-better-experience-than-apple/">so beautiful and functional. </a></p>
+
+<p><a href="http://www.flickr.com/photos/o2ukofficial/3693649059/in/photostream/"><img src="http://www.rohitmishra.me/blog/wp-content/uploads/2011/08/palm-pre.jpg" alt="" /></a></p>
+
+<p>But, Palm slagged off and the might of iOS and Android pushed it into obscurity. Palm ran into financial woes and then was acquired by HP. Â There was a lot of positive energy and everyone was <a href="http://techcrunch.com/2010/04/28/hp-palm-deal-webos/">optimistic what webOS will do</a> with the financial backup of HP. In hindsight, they didn&rsquo;t do much. I wonder how HP can use webOS now. Windows 8 is itself moving into touch territory so there is no room for another touch-friendly OS alongside it. Apparently, HP will push webOS into <a href="http://techcrunch.com/2011/08/16/hp-looking-to-appliances-autos-to-grow-and-save-webos/">appliances and cars</a>. I am not very hopeful.</p>
+
+<p>There are two things I wonder about:</p>
+
+<ul>
+<li><p>HP bought Palm for $1.2 billion. This experiment failed and they have no foothold at all in the mobile market. Every other desktop manufacturer is invested in Android and/or Windows Phone. Pretty smart management huh !</p></li>
+<li><p>There were rumors that Palm will be bought by Nokia. They desperately needed each other. Only if Nokia <a href="http://www.businessinsider.com/nokias-refusal-to-buy-palm-may-go-down-as-one-of-the-dumbest-moves-in-handset-history-2010-7">would have fired</a>Â CEO Olli-Pekka Kallasvuo earlier.</p></li>
+</ul>
+
+
+<p><em>Photo: Flickr/o2ukofficial</em></p>
+]]></content>
+  </entry>
+  
+</feed>

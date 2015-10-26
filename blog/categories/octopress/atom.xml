@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Octopress | Rohit Mishra]]></title>
+  <link href="http://mishrarohit.github.io/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://mishrarohit.github.io/"/>
+  <updated>2015-10-27T01:29:39+05:30</updated>
+  <id>http://mishrarohit.github.io/</id>
+  <author>
+    <name><![CDATA[Rohit Mishra]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[On Octopress]]></title>
+    <link href="http://mishrarohit.github.io/blog/2013/02/17/on-octopress/"/>
+    <updated>2013-02-17T13:18:00+05:30</updated>
+    <id>http://mishrarohit.github.io/blog/2013/02/17/on-octopress</id>
+    <content type="html"><![CDATA[<p>I have moved this blog to Octopress. <em>Test post</em></p>
+]]></content>
+  </entry>
+  
+</feed>
