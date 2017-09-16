@@ -1,487 +1,460 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2014/02/25/end-of-allotrop/</loc>
-    <lastmod>2014-02-25T00:02:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2014/01/12/the-long-term-relevance-issue-of-life-logging-apps/</loc>
-    <lastmod>2014-01-12T15:42:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2014/01/05/shared-endorsements-turning-us-all-in-to-unintentional-advertisers/</loc>
-    <lastmod>2014-01-05T04:34:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2013/05/28/silence-of-heroes/</loc>
-    <lastmod>2013-05-28T22:42:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2013/02/17/on-octopress/</loc>
-    <lastmod>2013-02-17T13:18:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2013/01/27/aaron-swartz/</loc>
-    <lastmod>2013-01-27T10:34:04+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2012/10/08/dear-arvind-please-chuck-the-cap-and-the-rhetoric/</loc>
-    <lastmod>2012-10-08T05:28:45+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2012/09/28/how-the-government-is-fooling-us-on-the-question-of-auctions/</loc>
-    <lastmod>2012-09-28T20:29:59+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2012/09/03/the-republicans-scare-me-about-the-future-of-democracy/</loc>
-    <lastmod>2012-09-03T01:38:25+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2012/08/31/favorite-ads-bajaj-avenger/</loc>
-    <lastmod>2012-08-31T06:44:05+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2012/08/30/what-is-work/</loc>
-    <lastmod>2012-08-30T21:50:39+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2012/08/14/united-airlines-should-pay-dearly-for-fucking-up-with-their-customers/</loc>
-    <lastmod>2012-08-14T20:37:08+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2012/07/13/women-in-india/</loc>
-    <lastmod>2012-07-13T18:09:32+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2012/06/11/understanding-linked-data-and-semantic-web/</loc>
-    <lastmod>2012-06-11T10:39:10+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2012/05/08/if-google-had-shown-some-love-to-google-talk/</loc>
-    <lastmod>2012-05-08T04:44:29+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2012/04/16/moving-wordpress-from-dreamhost-to-linode/</loc>
-    <lastmod>2012-04-16T08:04:25+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2012/04/14/hello-linode/</loc>
-    <lastmod>2012-04-14T09:13:33+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2012/03/28/someone-please-fix-comments/</loc>
-    <lastmod>2012-03-28T02:04:40+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2012/03/17/i-need-my-change/</loc>
-    <lastmod>2012-03-17T04:34:27+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2012/03/15/why-shutting-down-oink-is-not-a-good-move/</loc>
-    <lastmod>2012-03-15T20:58:45+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2012/03/13/rape-and-the-victims-trial-by-the-media/</loc>
-    <lastmod>2012-03-13T22:45:17+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2012/02/18/why-viral-invite-systems-suck/</loc>
-    <lastmod>2012-02-18T04:11:38+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2012/02/01/indian-air-force-finally-goes-for-dassault-rafale/</loc>
-    <lastmod>2012-02-01T05:18:19+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2012/01/17/jobs-on-itunes-for-android/</loc>
-    <lastmod>2012-01-17T05:09:17+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2012/01/11/laptop-buying-advice-for-web-and-mobile-hackers/</loc>
-    <lastmod>2012-01-11T06:16:52+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2012/01/07/think-different/</loc>
-    <lastmod>2012-01-07T01:57:02+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2011/12/19/icloud-ads-dont-make-sense-in-india/</loc>
-    <lastmod>2011-12-19T05:45:43+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2011/12/16/installing-android-sdk-on-ubuntu-1110/</loc>
-    <lastmod>2011-12-16T08:37:44+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2011/10/09/will-uid-project-see-the-light-of-the-day/</loc>
-    <lastmod>2011-10-09T11:49:15+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2011/09/29/android-is-not-free-courtesy-microsoft/</loc>
-    <lastmod>2011-09-29T01:49:13+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2011/09/23/vit-university-is-now-on-google-calendar/</loc>
-    <lastmod>2011-09-23T02:07:11+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2011/08/23/vaastu-is-not-science/</loc>
-    <lastmod>2011-08-23T20:13:18+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2011/08/19/goodbye-palm-2/</loc>
-    <lastmod>2011-08-19T08:00:07+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2011/08/12/apples-30-cut-is-leveling-the-field/</loc>
-    <lastmod>2011-08-12T07:12:58+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2011/06/25/nokia-n9-is-a-great-and-confusing-product/</loc>
-    <lastmod>2011-06-25T14:09:53+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2011/06/18/srcc-100-and-academic-inflation/</loc>
-    <lastmod>2011-06-18T15:20:55+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2011/05/04/usa-takes-down-osama-but-when-will-india-act/</loc>
-    <lastmod>2011-05-04T02:07:29+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2011/04/08/the-indian-love-for-jugaad/</loc>
-    <lastmod>2011-04-08T22:41:31+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2011/04/05/patents-and-cs/</loc>
-    <lastmod>2011-04-05T08:15:28+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2011/03/18/the-new-york-times-becomes-paid/</loc>
-    <lastmod>2011-03-18T20:39:09+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2011/03/14/google-circles-new-social-network/</loc>
-    <lastmod>2011-03-14T07:25:27+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2011/03/06/recharge-it-now-and-recharge-fraud/</loc>
-    <lastmod>2011-03-06T01:14:53+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2011/03/04/a-ride-through-windows-history/</loc>
-    <lastmod>2011-03-04T01:32:51+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2011/02/23/scribd-facebookinstant-personalization/</loc>
-    <lastmod>2011-02-23T04:14:50+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2011/02/12/which-phone-do-you-use/</loc>
-    <lastmod>2011-02-12T09:01:54+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2011/01/02/7-websites-student-must-start-using-in-the-new-year/</loc>
-    <lastmod>2011-01-02T12:56:26+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2010/10/25/we-need-a-windows-app-store/</loc>
-    <lastmod>2010-10-25T06:24:47+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2010/08/22/indian-govt-arrests-researcher/</loc>
-    <lastmod>2010-08-22T22:41:47+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2010/07/30/apple-kills-the-mouse/</loc>
-    <lastmod>2010-07-30T20:37:27+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2010/07/16/should-google-be-allowed-to-favour-its-affiliate-services-on-its-search-engine/</loc>
-    <lastmod>2010-07-16T05:01:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2010/07/05/is-nokia-capable-of-fighting-back/</loc>
-    <lastmod>2010-07-05T21:18:38+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2010/07/04/guardians-open-api-shows-way-forward-for-newspapers/</loc>
-    <lastmod>2010-07-04T09:36:21+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2010/06/11/is-warren-anderson-really-responsible/</loc>
-    <lastmod>2010-06-11T01:25:09+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2010/06/05/atts-new-data-plans-will-choke-mobile-innovation/</loc>
-    <lastmod>2010-06-05T16:44:12+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2010/05/31/head-first-html-with-css-and-xhtml-review/</loc>
-    <lastmod>2010-05-31T11:50:06+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2010/05/20/hello-world/</loc>
-    <lastmod>2010-05-20T19:41:23+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2009/12/22/chetan-bhagat-right-and-wrong/</loc>
-    <lastmod>2009-12-22T11:59:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2009/12/09/making-a-bandwidth-measurer-extension-for-chrome-and-firefox/</loc>
-    <lastmod>2009-12-09T22:01:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2009/11/27/de-dana-dan-review/</loc>
-    <lastmod>2009-11-27T22:20:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2009/11/25/terminator-salvation-review/</loc>
-    <lastmod>2009-11-25T00:40:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2009/10/03/joe-wilcox-on-iphone/</loc>
-    <lastmod>2009-10-03T00:19:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2009/07/11/need-for-english/</loc>
-    <lastmod>2009-07-11T01:18:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2009/06/23/figuring-out-the-health-labyrinth/</loc>
-    <lastmod>2009-06-23T15:56:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2009/06/15/firefox-in-times-of-chrome-and-safari/</loc>
-    <lastmod>2009-06-15T22:17:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2009/05/09/tuition-mania/</loc>
-    <lastmod>2009-05-09T21:14:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2009/04/26/moving-ahead-from-turbo-c/</loc>
-    <lastmod>2009-04-26T03:43:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2009/03/22/the-story-behind-neoforma-com/</loc>
-    <lastmod>2009-03-22T15:01:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2009/03/12/locking-us-in-present-sir/</loc>
-    <lastmod>2009-03-12T05:49:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2009/02/21/lack-of-entrepreneurship-in-india-whats-wrong/</loc>
-    <lastmod>2009-02-21T00:58:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2009/01/15/the-nokia-decade/</loc>
-    <lastmod>2009-01-15T19:05:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2009/01/06/vacation-ranchi-and-accident/</loc>
-    <lastmod>2009-01-06T01:07:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2008/12/19/dorai-thodla-in-vit/</loc>
-    <lastmod>2008-12-19T01:37:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2008/12/12/ray-ozzies-microsoft/</loc>
-    <lastmod>2008-12-12T05:19:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2008/12/06/i-am-in-a-rich-college/</loc>
-    <lastmod>2008-12-06T00:07:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2008/11/29/can-you-fight-others-by-breaking-yourself-up/</loc>
-    <lastmod>2008-11-29T19:57:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2008/11/26/my-opera-usage-notes/</loc>
-    <lastmod>2008-11-26T05:11:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2008/11/24/the-economic-crisis-simplified/</loc>
-    <lastmod>2008-11-24T01:28:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2008/11/15/dostana-its-good/</loc>
-    <lastmod>2008-11-15T22:08:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2008/11/08/obama-usa-is-back/</loc>
-    <lastmod>2008-11-08T23:07:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2008/10/29/in-search-of-better-brand-names/</loc>
-    <lastmod>2008-10-29T00:08:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2008/10/22/internet-in-india/</loc>
-    <lastmod>2008-10-22T17:50:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2008/10/13/indian-sports-the-mess-within/</loc>
-    <lastmod>2008-10-13T19:55:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2008/10/10/my-first-blood-donation/</loc>
-    <lastmod>2008-10-10T20:46:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2008/10/10/the-xps-goes-down/</loc>
-    <lastmod>2008-10-10T19:17:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2008/10/03/my-marks-wall-street-unexplainable/</loc>
-    <lastmod>2008-10-03T20:01:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2008/10/03/the-xps-week/</loc>
-    <lastmod>2008-10-03T19:32:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2008/09/23/exams-n-airtel/</loc>
-    <lastmod>2008-09-23T20:34:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2008/09/17/my-dell-xps-is-on-its-way/</loc>
-    <lastmod>2008-09-17T19:21:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2008/09/11/swype-brilliant-new-touchscreen-tech/</loc>
-    <lastmod>2008-09-11T18:46:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2008/09/07/images-from-vit/</loc>
-    <lastmod>2008-09-07T16:20:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2008/08/13/finally-net-access-at-vit/</loc>
-    <lastmod>2008-08-13T20:33:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2008/07/06/licensed-corruption/</loc>
-    <lastmod>2008-07-06T04:42:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2008/07/01/the-iphone-pain-and-motorolas-gain/</loc>
-    <lastmod>2008-07-01T02:27:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2008/06/27/the-service-route-to-sucess/</loc>
-    <lastmod>2008-06-27T16:01:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2008/05/14/an-inconvenient-truth-e28093-planet-earth-ahead/</loc>
-    <lastmod>2008-05-14T16:09:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2008/05/14/please-help-protect-polar-bears/</loc>
-    <lastmod>2008-05-14T06:51:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2008/05/13/i-am-back/</loc>
-    <lastmod>2008-05-13T11:57:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2007/12/09/indian-infrastructure-turning-deficit-into-opportunity/</loc>
-    <lastmod>2007-12-09T14:28:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/2007/09/18/time-to-know-123-of-the-nuclear-deal/</loc>
-    <lastmod>2007-09-18T17:03:00+05:30</lastmod>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/archives/</loc>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/</loc>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/categories/everything-else/</loc>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/categories/business/</loc>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/categories/personal/</loc>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/categories/tech/</loc>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/categories/books-movies/</loc>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/categories/education/</loc>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/categories/startups/</loc>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/categories/hacking/</loc>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/categories/india/</loc>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/categories/politics/</loc>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/categories/octopress/</loc>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/categories/cricket/</loc>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/categories/heroes/</loc>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/categories/advertising/</loc>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/categories/social/</loc>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/categories/technology/</loc>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/categories/allotrop/</loc>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/posts/2/</loc>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/posts/3/</loc>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/posts/4/</loc>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/posts/5/</loc>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/posts/6/</loc>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/posts/7/</loc>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/posts/8/</loc>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/posts/9/</loc>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/blog/posts/10/</loc>
-  </url>
-  <url>
-    <loc>http://mishrarohit.github.io/index.html</loc>
-    <lastmod>2015-10-27T02:02:46+05:30</lastmod>
-  </url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2014/02/25/end-of-allotrop/</loc>
+<lastmod>2014-02-25T00:02:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2014/01/12/the-long-term-relevance-issue-of-life-logging-apps/</loc>
+<lastmod>2014-01-12T15:42:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2014/01/05/shared-endorsements-turning-us-all-in-to-unintentional-advertisers/</loc>
+<lastmod>2014-01-05T04:34:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2013/05/28/silence-of-heroes/</loc>
+<lastmod>2013-05-28T22:42:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2013/02/17/on-octopress/</loc>
+<lastmod>2013-02-17T13:18:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2013/01/27/aaron-swartz/</loc>
+<lastmod>2013-01-27T10:34:04+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2012/10/08/dear-arvind-please-chuck-the-cap-and-the-rhetoric/</loc>
+<lastmod>2012-10-08T05:28:45+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2012/09/28/how-the-government-is-fooling-us-on-the-question-of-auctions/</loc>
+<lastmod>2012-09-28T20:29:59+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2012/09/03/the-republicans-scare-me-about-the-future-of-democracy/</loc>
+<lastmod>2012-09-03T01:38:25+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2012/08/31/favorite-ads-bajaj-avenger/</loc>
+<lastmod>2012-08-31T06:44:05+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2012/08/30/what-is-work/</loc>
+<lastmod>2012-08-30T21:50:39+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2012/08/14/united-airlines-should-pay-dearly-for-fucking-up-with-their-customers/</loc>
+<lastmod>2012-08-14T20:37:08+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2012/07/13/women-in-india/</loc>
+<lastmod>2012-07-13T18:09:32+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2012/06/11/understanding-linked-data-and-semantic-web/</loc>
+<lastmod>2012-06-11T10:39:10+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2012/05/08/if-google-had-shown-some-love-to-google-talk/</loc>
+<lastmod>2012-05-08T04:44:29+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2012/04/16/moving-wordpress-from-dreamhost-to-linode/</loc>
+<lastmod>2012-04-16T08:04:25+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2012/04/14/hello-linode/</loc>
+<lastmod>2012-04-14T09:13:33+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2012/03/28/someone-please-fix-comments/</loc>
+<lastmod>2012-03-28T02:04:40+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2012/03/17/i-need-my-change/</loc>
+<lastmod>2012-03-17T04:34:27+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2012/03/15/why-shutting-down-oink-is-not-a-good-move/</loc>
+<lastmod>2012-03-15T20:58:45+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2012/03/13/rape-and-the-victims-trial-by-the-media/</loc>
+<lastmod>2012-03-13T22:45:17+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2012/02/18/why-viral-invite-systems-suck/</loc>
+<lastmod>2012-02-18T04:11:38+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2012/02/01/indian-air-force-finally-goes-for-dassault-rafale/</loc>
+<lastmod>2012-02-01T05:18:19+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2012/01/17/jobs-on-itunes-for-android/</loc>
+<lastmod>2012-01-17T05:09:17+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2012/01/11/laptop-buying-advice-for-web-and-mobile-hackers/</loc>
+<lastmod>2012-01-11T06:16:52+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2012/01/07/think-different/</loc>
+<lastmod>2012-01-07T01:57:02+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2011/12/19/icloud-ads-dont-make-sense-in-india/</loc>
+<lastmod>2011-12-19T05:45:43+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2011/12/16/installing-android-sdk-on-ubuntu-1110/</loc>
+<lastmod>2011-12-16T08:37:44+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2011/10/09/will-uid-project-see-the-light-of-the-day/</loc>
+<lastmod>2011-10-09T11:49:15+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2011/09/29/android-is-not-free-courtesy-microsoft/</loc>
+<lastmod>2011-09-29T01:49:13+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2011/09/23/vit-university-is-now-on-google-calendar/</loc>
+<lastmod>2011-09-23T02:07:11+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2011/08/23/vaastu-is-not-science/</loc>
+<lastmod>2011-08-23T20:13:18+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2011/08/19/goodbye-palm-2/</loc>
+<lastmod>2011-08-19T08:00:07+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2011/08/12/apples-30-cut-is-leveling-the-field/</loc>
+<lastmod>2011-08-12T07:12:58+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2011/06/25/nokia-n9-is-a-great-and-confusing-product/</loc>
+<lastmod>2011-06-25T14:09:53+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2011/06/18/srcc-100-and-academic-inflation/</loc>
+<lastmod>2011-06-18T15:20:55+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2011/05/04/usa-takes-down-osama-but-when-will-india-act/</loc>
+<lastmod>2011-05-04T02:07:29+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2011/04/08/the-indian-love-for-jugaad/</loc>
+<lastmod>2011-04-08T22:41:31+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2011/04/05/patents-and-cs/</loc>
+<lastmod>2011-04-05T08:15:28+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2011/03/18/the-new-york-times-becomes-paid/</loc>
+<lastmod>2011-03-18T20:39:09+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2011/03/14/google-circles-new-social-network/</loc>
+<lastmod>2011-03-14T07:25:27+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2011/03/06/recharge-it-now-and-recharge-fraud/</loc>
+<lastmod>2011-03-06T01:14:53+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2011/03/04/a-ride-through-windows-history/</loc>
+<lastmod>2011-03-04T01:32:51+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2011/02/23/scribd-facebookinstant-personalization/</loc>
+<lastmod>2011-02-23T04:14:50+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2011/02/12/which-phone-do-you-use/</loc>
+<lastmod>2011-02-12T09:01:54+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2011/01/02/7-websites-student-must-start-using-in-the-new-year/</loc>
+<lastmod>2011-01-02T12:56:26+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2010/10/25/we-need-a-windows-app-store/</loc>
+<lastmod>2010-10-25T06:24:47+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2010/08/22/indian-govt-arrests-researcher/</loc>
+<lastmod>2010-08-22T22:41:47+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2010/07/30/apple-kills-the-mouse/</loc>
+<lastmod>2010-07-30T20:37:27+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2010/07/16/should-google-be-allowed-to-favour-its-affiliate-services-on-its-search-engine/</loc>
+<lastmod>2010-07-16T05:01:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2010/07/05/is-nokia-capable-of-fighting-back/</loc>
+<lastmod>2010-07-05T21:18:38+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2010/07/04/guardians-open-api-shows-way-forward-for-newspapers/</loc>
+<lastmod>2010-07-04T09:36:21+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2010/06/11/is-warren-anderson-really-responsible/</loc>
+<lastmod>2010-06-11T01:25:09+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2010/06/05/atts-new-data-plans-will-choke-mobile-innovation/</loc>
+<lastmod>2010-06-05T16:44:12+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2010/05/31/head-first-html-with-css-and-xhtml-review/</loc>
+<lastmod>2010-05-31T11:50:06+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2010/05/20/hello-world/</loc>
+<lastmod>2010-05-20T19:41:23+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2009/12/22/chetan-bhagat-right-and-wrong/</loc>
+<lastmod>2009-12-22T11:59:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2009/12/09/making-a-bandwidth-measurer-extension-for-chrome-and-firefox/</loc>
+<lastmod>2009-12-09T22:01:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2009/11/27/de-dana-dan-review/</loc>
+<lastmod>2009-11-27T22:20:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2009/11/25/terminator-salvation-review/</loc>
+<lastmod>2009-11-25T00:40:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2009/10/03/joe-wilcox-on-iphone/</loc>
+<lastmod>2009-10-03T00:19:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2009/07/11/need-for-english/</loc>
+<lastmod>2009-07-11T01:18:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2009/06/23/figuring-out-the-health-labyrinth/</loc>
+<lastmod>2009-06-23T15:56:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2009/06/15/firefox-in-times-of-chrome-and-safari/</loc>
+<lastmod>2009-06-15T22:17:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2009/05/09/tuition-mania/</loc>
+<lastmod>2009-05-09T21:14:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2009/04/26/moving-ahead-from-turbo-c/</loc>
+<lastmod>2009-04-26T03:43:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2009/03/22/the-story-behind-neoforma-com/</loc>
+<lastmod>2009-03-22T15:01:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2009/03/12/locking-us-in-present-sir/</loc>
+<lastmod>2009-03-12T05:49:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2009/02/21/lack-of-entrepreneurship-in-india-whats-wrong/</loc>
+<lastmod>2009-02-21T00:58:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2009/01/15/the-nokia-decade/</loc>
+<lastmod>2009-01-15T19:05:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2009/01/06/vacation-ranchi-and-accident/</loc>
+<lastmod>2009-01-06T01:07:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2008/12/19/dorai-thodla-in-vit/</loc>
+<lastmod>2008-12-19T01:37:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2008/12/12/ray-ozzies-microsoft/</loc>
+<lastmod>2008-12-12T05:19:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2008/12/06/i-am-in-a-rich-college/</loc>
+<lastmod>2008-12-06T00:07:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2008/11/29/can-you-fight-others-by-breaking-yourself-up/</loc>
+<lastmod>2008-11-29T19:57:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2008/11/26/my-opera-usage-notes/</loc>
+<lastmod>2008-11-26T05:11:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2008/11/24/the-economic-crisis-simplified/</loc>
+<lastmod>2008-11-24T01:28:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2008/11/15/dostana-its-good/</loc>
+<lastmod>2008-11-15T22:08:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2008/11/08/obama-usa-is-back/</loc>
+<lastmod>2008-11-08T23:07:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2008/10/29/in-search-of-better-brand-names/</loc>
+<lastmod>2008-10-29T00:08:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2008/10/22/internet-in-india/</loc>
+<lastmod>2008-10-22T17:50:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2008/10/13/indian-sports-the-mess-within/</loc>
+<lastmod>2008-10-13T19:55:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2008/10/10/my-first-blood-donation/</loc>
+<lastmod>2008-10-10T20:46:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2008/10/10/the-xps-goes-down/</loc>
+<lastmod>2008-10-10T19:17:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2008/10/03/my-marks-wall-street-unexplainable/</loc>
+<lastmod>2008-10-03T20:01:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2008/10/03/the-xps-week/</loc>
+<lastmod>2008-10-03T19:32:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2008/09/23/exams-n-airtel/</loc>
+<lastmod>2008-09-23T20:34:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2008/09/17/my-dell-xps-is-on-its-way/</loc>
+<lastmod>2008-09-17T19:21:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2008/09/11/swype-brilliant-new-touchscreen-tech/</loc>
+<lastmod>2008-09-11T18:46:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2008/09/07/images-from-vit/</loc>
+<lastmod>2008-09-07T16:20:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2008/08/13/finally-net-access-at-vit/</loc>
+<lastmod>2008-08-13T20:33:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2008/07/06/licensed-corruption/</loc>
+<lastmod>2008-07-06T04:42:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2008/07/01/the-iphone-pain-and-motorolas-gain/</loc>
+<lastmod>2008-07-01T02:27:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2008/06/27/the-service-route-to-sucess/</loc>
+<lastmod>2008-06-27T16:01:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2008/05/14/an-inconvenient-truth-e28093-planet-earth-ahead/</loc>
+<lastmod>2008-05-14T16:09:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2008/05/14/please-help-protect-polar-bears/</loc>
+<lastmod>2008-05-14T06:51:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2008/05/13/i-am-back/</loc>
+<lastmod>2008-05-13T11:57:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2007/12/09/indian-infrastructure-turning-deficit-into-opportunity/</loc>
+<lastmod>2007-12-09T14:28:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/2007/09/18/time-to-know-123-of-the-nuclear-deal/</loc>
+<lastmod>2007-09-18T17:03:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/archives/</loc>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/</loc>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/categories/everything-else/</loc>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/categories/business/</loc>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/categories/personal/</loc>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/categories/tech/</loc>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/categories/books-movies/</loc>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/categories/education/</loc>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/categories/startups/</loc>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/categories/hacking/</loc>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/categories/india/</loc>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/categories/politics/</loc>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/categories/octopress/</loc>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/categories/cricket/</loc>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/categories/heroes/</loc>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/categories/advertising/</loc>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/categories/social/</loc>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/categories/technology/</loc>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/blog/categories/allotrop/</loc>
+</url>
+<url>
+<loc>http://mishrarohit.github.io/index.html</loc>
+<lastmod>2017-09-16T19:19:57+05:30</lastmod>
+</url>
 </urlset>
