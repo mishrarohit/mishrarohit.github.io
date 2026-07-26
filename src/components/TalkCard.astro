@@ -3,18 +3,25 @@ interface Props {
   title: string;
   event: string;
   year: string;
+  visual: string;
+  tone: 'green' | 'gold' | 'blue' | 'rose';
   description: string;
   href: string;
 }
 
-const { title, event, year, description, href } = Astro.props;
+const { title, event, year, visual, tone, description, href } = Astro.props;
 ---
 
-<a class="talk-card" href={href} target="_blank" rel="noopener noreferrer">
-  <div>
+<a class="talk-card visual-card" href={href} target="_blank" rel="noopener noreferrer">
+  <div class={`card-visual tone-${tone}`} aria-hidden="true">
+    <div class="visual-orb"></div>
+    <div class="play-mark">▶</div>
+    <strong>{visual}</strong>
+  </div>
+  <div class="card-body">
     <p class="talk-meta">{event} · {year}</p>
     <h3>{title}</h3>
     <p>{description}</p>
+    <div class="card-cta">Watch <span aria-hidden="true">↗</span></div>
   </div>
-  <span aria-hidden="true">↗</span>
 </a>

@@ -1,18 +1,48 @@
 ---
 interface Props {
-  kicker: string;
   title: string;
   description: string;
+  visual: 'payments' | 'markets' | 'shop-pay' | 'tax';
+  tone: 'green' | 'gold' | 'blue' | 'rose';
   href?: string;
 }
 
-const { kicker, title, description, href } = Astro.props;
+const { title, description, visual, tone, href } = Astro.props;
 const Tag = href ? 'a' : 'article';
 ---
 
-<Tag class="work-card" href={href} target={href ? '_blank' : undefined} rel={href ? 'noopener noreferrer' : undefined}>
-  <span>{kicker}</span>
-  <h3>{title}</h3>
-  <p>{description}</p>
-  {href && <div class="card-cta">Explore <span aria-hidden="true">↗</span></div>}
+<Tag class="work-card visual-card" href={href} target={href ? '_blank' : undefined} rel={href ? 'noopener noreferrer' : undefined}>
+  <div class={`product-visual tone-${tone} scene-${visual}`} aria-hidden="true">
+    {visual === 'payments' && (
+      <img class="product-art payments-art" src="/images/products/shopify-payments.png" alt="" loading="lazy" />
+    )}
+
+    {visual === 'markets' && (
+      <div class="markets-globe-scene">
+        <div class="markets-grid"></div>
+        <div class="markets-globe">
+          <span class="globe-circle"></span>
+          <span class="globe-meridian meridian-center"></span>
+          <span class="globe-meridian meridian-wide"></span>
+          <span class="globe-latitude latitude-center"></span>
+          <span class="globe-latitude latitude-top"></span>
+          <span class="globe-latitude latitude-bottom"></span>
+        </div>
+        <div class="markets-arc"></div>
+        <div class="markets-overlay">Markets</div>
+      </div>
+    )}
+
+    {visual === 'shop-pay' && (
+      <img class="product-art shop-pay-art" src="/images/products/shop-pay.webp" alt="" loading="lazy" />
+    )}
+
+    {visual === 'tax' && (
+      <img class="product-art tax-art" src="/images/products/shopify-tax.webp" alt="" loading="lazy" />
+    )}
+  </div>
+  <div class="card-body product-body">
+    <h3>{title}</h3>
+    <p>{description}</p>
+  </div>
 </Tag>

@@ -1,8 +1,8 @@
 export const profile = {
   name: 'Rohit Mishra',
   role: 'VP Product at Shopify',
-  headline: 'I build payments, cross-border commerce, and merchant infrastructure for millions of businesses.',
-  location: 'Toronto, Canada',
+  headline: 'Rohit Mishra',
+  location: 'New York, United States',
   email: 'mailto:rohit@rohitmishra.me',
   socials: [
     { label: 'LinkedIn', href: 'https://linkedin.com/in/arohitmishra' },
@@ -13,32 +13,32 @@ export const profile = {
 
 export const workThemes = [
   {
-    title: 'Payments infrastructure',
-    kicker: 'Money movement',
-    description:
-      'Leading product teams building reliable payment experiences, risk systems, and financial infrastructure for Shopify merchants.',
+    title: 'Shopify Payments',
+    visual: 'payments',
+    tone: 'green',
+    description: 'Optimized payment acceptance across all channels',
     href: 'https://www.shopify.com/payments'
   },
   {
-    title: 'Cross-border commerce',
-    kicker: 'Global selling',
-    description:
-      'Helping merchants sell internationally with localized pricing, duties, taxes, currency, compliance, and shipping experiences.',
-    href: 'https://www.shopify.com/international'
-  },
-  {
-    title: 'Accelerated checkout',
-    kicker: 'Conversion',
-    description:
-      'Working on checkout and buyer experiences that make commerce faster, more trusted, and easier to complete.',
+    title: 'Shop Pay',
+    visual: 'shop-pay',
+    tone: 'blue',
+    description: 'The best-converting wallet, used by 250M+ shoppers.',
     href: 'https://www.shopify.com/shop-pay'
   },
   {
-    title: 'Agentic commerce',
-    kicker: 'AI interfaces',
-    description:
-      'Exploring how commerce changes when product discovery and checkout happen inside AI conversations.',
-    href: 'https://www.youtube.com/watch?v=_Gi3to6aUCQ&t=1539s'
+    title: 'Shopify Markets',
+    visual: 'markets',
+    tone: 'gold',
+    description: 'Simplest way to sell internationally',
+    href: 'https://www.shopify.com/international'
+  },
+  {
+    title: 'Shopify Tax',
+    visual: 'tax',
+    tone: 'rose',
+    description: 'Simplified end to end sales tax',
+    href: 'https://www.shopify.com/tax'
   }
 ] as const;
 
@@ -47,6 +47,8 @@ export const talks = [
     title: 'Agentic Commerce',
     event: 'Stripe Tour New York',
     year: '2025',
+    visual: 'Agentic',
+    tone: 'rose',
     description: 'How AI agents are reshaping commerce and what it means for payments infrastructure.',
     href: 'https://www.youtube.com/watch?v=_Gi3to6aUCQ&t=1539s'
   },
@@ -54,6 +56,8 @@ export const talks = [
     title: 'Fast, Cheap, Global: Local Payment Methods',
     event: 'Stripe Sessions',
     year: '2025',
+    visual: 'LPMs',
+    tone: 'green',
     description: 'Building payment infrastructure that adapts to local preferences across global markets.',
     href: 'https://stripe.com/en-ca/sessions/2025/fast-cheap-global'
   },
@@ -61,6 +65,8 @@ export const talks = [
     title: 'Building for a Global Audience',
     event: 'Shopify Unite',
     year: '2019',
+    visual: 'Unite',
+    tone: 'gold',
     description: 'Lessons from building international commerce tools for millions of merchants.',
     href: 'https://www.youtube.com/watch?v=L1S-MI7Jmvs&t=52s'
   }

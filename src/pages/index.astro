@@ -5,7 +5,7 @@ import SectionHeading from '../components/SectionHeading.astro';
 import WorkCard from '../components/WorkCard.astro';
 import TalkCard from '../components/TalkCard.astro';
 import Footer from '../components/Footer.astro';
-import { principles, profile, talks, timeline, workThemes } from '../data/site';
+import { profile, talks, workThemes } from '../data/site';
 ---
 
 <BaseLayout description="Rohit Mishra is VP Product at Shopify, building payments, cross-border commerce, and merchant infrastructure for millions of businesses.">
@@ -13,17 +13,13 @@ import { principles, profile, talks, timeline, workThemes } from '../data/site';
   <main>
     <section class="hero section-shell">
       <div class="hero-copy">
-        <p class="eyebrow">Product · Commerce · Payments</p>
         <h1>{profile.headline}</h1>
+        <p class="hero-role">VP Product, Shopify</p>
         <p class="hero-intro">
-          I’m Rohit Mishra, VP Product at Shopify. I lead teams working on payments,
-          risk, money movement, and cross-border commerce — the infrastructure that
-          helps entrepreneurs sell anywhere and get paid reliably.
+          I build commerce infrastructure for merchants selling everywhere — payments,
+          tax, risk, money movement, and cross-border commerce.
         </p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="/talks/">Watch talks</a>
-          <a class="button" href="/writing/">Read writing</a>
-        </div>
+
       </div>
       <div class="portrait-card" aria-label="Portrait of Rohit Mishra">
         <img src="/images/rohit.jpeg" alt="Rohit Mishra" />
@@ -32,65 +28,28 @@ import { principles, profile, talks, timeline, workThemes } from '../data/site';
 
     <section class="section-shell split-section">
       <SectionHeading
-        eyebrow="Selected work"
-        title="Building the operating layer for global commerce."
-        description="I focus on products where money, trust, compliance, conversion, and global merchant needs intersect."
+        eyebrow="What I’ve built"
+        title="Payments, checkout, tax, and cross-border commerce at Shopify."
+        description="A few product areas I’ve worked on across payments, checkout, cross-border commerce, and AI-native buying experiences."
       />
-      <div class="work-grid">
+      <div class="work-grid visual-grid">
         {workThemes.map((theme) => <WorkCard {...theme} />)}
       </div>
     </section>
 
-    <section class="section-shell belief-section">
-      <div>
-        <p class="eyebrow">Point of view</p>
-        <h2>Commerce infrastructure is best when merchants never have to think about it.</h2>
-      </div>
-      <div class="principles-list">
-        {principles.map((principle, index) => (
-          <p><span>{String(index + 1).padStart(2, '0')}</span>{principle}</p>
-        ))}
-      </div>
-    </section>
-
-    <section class="section-shell split-section">
+    <section class="section-shell split-section contrast-section">
       <SectionHeading
         eyebrow="Speaking"
         title="Talks on payments, global commerce, and AI interfaces."
       />
-      <div class="talk-list">
-        {talks.map((talk) => <TalkCard {...talk} />)}
-      </div>
-      <a class="text-link" href="/talks/">View all talks <span aria-hidden="true">→</span></a>
-    </section>
-
-    <section class="section-shell timeline-section">
-      <SectionHeading eyebrow="Journey" title="Founder and engineer turned product leader." />
-      <div class="timeline">
-        {timeline.map((item) => (
-          <article>
-            <span>{item.period}</span>
-            <div>
-              <h3>{item.title}</h3>
-              <p class="timeline-company">{item.company}</p>
-              <p>{item.description}</p>
-            </div>
-          </article>
-        ))}
-      </div>
-    </section>
-
-    <section class="section-shell writing-callout">
       <div>
-        <p class="eyebrow">Writing</p>
-        <h2>Notes on building products, teams, and commerce infrastructure.</h2>
-        <p>
-          I’m starting fresh here. Expect essays on product judgment, global commerce,
-          payments infrastructure, AI-driven shopping, and leading product teams at scale.
-        </p>
+        <div class="talk-list visual-grid">
+          {talks.map((talk) => <TalkCard {...talk} />)}
+        </div>
+        <a class="text-link" href="/talks/">View all talks <span aria-hidden="true">→</span></a>
       </div>
-      <a class="button button-primary" href="/writing/">Writing coming soon</a>
     </section>
+
   </main>
   <Footer />
 </BaseLayout>
