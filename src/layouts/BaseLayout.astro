@@ -1,18 +1,104 @@
 ---
+import { media, profile, talks, workThemes } from '../data/site';
+
 interface Props {
   title?: string;
   description?: string;
+  image?: string;
+  imageAlt?: string;
+  noindex?: boolean;
 }
 
 const {
   title = 'Rohit Mishra',
-  description = 'Rohit Mishra is VP Product at Shopify, building payments, cross-border commerce, and merchant infrastructure.'
+  description = 'Rohit Mishra is VP Product at Shopify, building commerce infrastructure across payments, tax, risk, money movement, and cross-border commerce.',
+  image = '/images/og/home.png',
+  imageAlt = 'Rohit Mishra — VP Product, Shopify. Commerce infrastructure for merchants.',
+  noindex = false
 } = Astro.props;
 
 const fullTitle = title === 'Rohit Mishra' ? title : `${title} — Rohit Mishra`;
 const site = Astro.site ?? new URL('https://www.rohitmishra.me');
+const siteUrl = site.toString().replace(/\/$/, '');
 const canonical = new URL(Astro.url.pathname, site).toString();
-const ogImage = new URL('/images/rohit.jpeg', site).toString();
+const ogImage = new URL(image, site).toString();
+const sameAs = profile.socials.filter((link) => link.href.startsWith('http')).map((link) => link.href);
+const email = profile.email.replace('mailto:', '');
+
+const structuredData = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    '@id': `${siteUrl}/#website`,
+    url: `${siteUrl}/`,
+    name: 'Rohit Mishra',
+    description,
+    inLanguage: 'en-US',
+    publisher: { '@id': `${siteUrl}/#person` }
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'ProfilePage',
+    '@id': `${canonical}#profile`,
+    url: canonical,
+    name: fullTitle,
+    description,
+    inLanguage: 'en-US',
+    mainEntity: { '@id': `${siteUrl}/#person` }
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    '@id': `${siteUrl}/#person`,
+    name: profile.name,
+    url: `${siteUrl}/`,
+    image: new URL('/images/rohit.jpeg', site).toString(),
+    jobTitle: 'VP Product',
+    worksFor: {
+      '@type': 'Organization',
+      name: 'Shopify',
+      url: 'https://www.shopify.com/'
+    },
+    email,
+    sameAs,
+    knowsAbout: [
+      'commerce infrastructure',
+      'payments',
+      'Shopify Payments',
+      'Shop Pay',
+      'sales tax',
+      'Shopify Tax',
+      'cross-border commerce',
+      'Shopify Markets',
+      'risk',
+      'money movement',
+      'agentic commerce'
+    ],
+    subjectOf: [
+      ...media.map((item) => ({
+        '@type': 'Article',
+        name: item.title,
+        url: item.href,
+        publisher: item.source
+      })),
+      ...talks.map((talk) => ({
+        '@type': talk.embed ? 'VideoObject' : 'CreativeWork',
+        name: talk.title,
+        description: talk.description,
+        url: talk.href,
+        embedUrl: talk.embed,
+        datePublished: talk.year === 'June 2024' ? '2024-06-01' : /^\d{4}$/.test(talk.year) ? `${talk.year}-01-01` : undefined,
+        publisher: talk.event
+      }))
+    ],
+    makesOffer: workThemes.map((work) => ({
+      '@type': 'CreativeWork',
+      name: work.title,
+      description: work.description,
+      url: work.href
+    }))
+  }
+];
 ---
 
 <!doctype html>
@@ -21,6 +107,8 @@ const ogImage = new URL('/images/rohit.jpeg', site).toString();
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
+    <meta name="author" content={profile.name} />
+    {noindex && <meta name="robots" content="noindex, follow" />}
     <link rel="canonical" href={canonical} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
@@ -30,15 +118,27 @@ const ogImage = new URL('/images/rohit.jpeg', site).toString();
 
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="profile" />
     <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content="Rohit Mishra" />
+    <meta property="og:locale" content="en_US" />
     <meta property="og:image" content={ogImage} />
+    <meta property="og:image:secure_url" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:alt" content={imageAlt} />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@amishrarohit" />
+    <meta name="twitter:site" content="@rohitmishra" />
+    <meta name="twitter:creator" content="@rohitmishra" />
     <meta name="twitter:title" content={fullTitle} />
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image:alt" content={imageAlt} />
+
+    <meta name="theme-color" content="#fbf7ef" />
+    <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
 
     <title>{fullTitle}</title>
   </head>

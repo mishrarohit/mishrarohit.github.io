@@ -1,0 +1,34 @@
+# Rohit Mishra
+
+Rohit Mishra is VP Product at Shopify. He works on commerce infrastructure across payments, tax, risk, money movement, and cross-border commerce.
+
+Canonical site: https://www.rohitmishra.me/
+
+## Profiles
+
+- X: https://x.com/rohitmishra
+- LinkedIn: https://linkedin.com/in/arohitmishra
+- Email: rohit@rohitmishra.me
+
+## Product areas
+
+- Shopify Payments — optimized payment acceptance across all channels
+- Shop Pay — the best-converting wallet, used by 250M+ shoppers
+- Shopify Markets — simplest way to sell internationally
+- Shopify Tax — simplified end to end sales tax
+
+## Talks
+
+- Agentic Commerce — Stripe Tour New York, 2025 — https://www.youtube.com/watch?v=_Gi3to6aUCQ&t=1539s
+- Fast, Cheap, Global: Local Payment Methods — Stripe Sessions, 2025 — https://stripe.com/en-ca/sessions/2025/fast-cheap-global
+- Shopify Markets — Shopify Editions, June 2024 — https://www.youtube.com/watch?v=zLvyi57t3Xg
+- Building for a Global Audience — Shopify Unite, 2019 — https://www.youtube.com/watch?v=L1S-MI7Jmvs&t=52s
+
+## Media
+
+- FinTech Magazine — Shopify: Redefining Payments Infrastructure for Merchants — https://fintechmagazine.com/news/shopify-redefining-payments-infrastructure-for-merchants
+- Linux Foundation — Announcing x402 Foundation — https://www.linuxfoundation.org/press/linux-foundation-is-launching-the-x402-foundation-and-welcoming-the-contribution-of-the-x402-protocol
+- Open Standard — Introducing Open USD — https://joinopenstandard.com/blog/introducing-open-usd
+- Paiement.fr — Shopify Payments expansion in Europe — https://www.paiement.fr/p/shopify-veut-faire-du-paiement-son-passeport-pour-linternational
+- One to One — Shopify Payments expansion in Europe — https://www.onetoone.de/artikel/db/618151bma.html
+- neuhandeln — Shopify Payments expansion in Europe — https://www.neuhandeln.de/gastbeitraege/db/618151bma.html
