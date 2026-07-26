@@ -1,0 +1,16 @@
+---
+const links = [
+  { href: '/', label: 'Home' },
+  { href: '/talks/', label: 'Talks' },
+  { href: '/writing/', label: 'Writing' }
+];
+---
+
+<header class="site-nav">
+  <a class="wordmark" href="/" aria-label="Rohit Mishra home">RM</a>
+  <nav aria-label="Primary navigation">
+    {links.map((link) => (
+      <a href={link.href}>{link.label}</a>
+    ))}
+  </nav>
+</header>

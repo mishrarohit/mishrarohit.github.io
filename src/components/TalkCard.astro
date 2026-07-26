@@ -1,0 +1,20 @@
+---
+interface Props {
+  title: string;
+  event: string;
+  year: string;
+  description: string;
+  href: string;
+}
+
+const { title, event, year, description, href } = Astro.props;
+---
+
+<a class="talk-card" href={href} target="_blank" rel="noopener noreferrer">
+  <div>
+    <p class="talk-meta">{event} · {year}</p>
+    <h3>{title}</h3>
+    <p>{description}</p>
+  </div>
+  <span aria-hidden="true">↗</span>
+</a>

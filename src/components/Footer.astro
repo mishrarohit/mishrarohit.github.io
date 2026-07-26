@@ -1,0 +1,15 @@
+---
+import { profile } from '../data/site';
+---
+
+<footer class="site-footer">
+  <div>
+    <p>© {new Date().getFullYear()} {profile.name}</p>
+    <p>{profile.location}</p>
+  </div>
+  <nav aria-label="Social links">
+    {profile.socials.map((link) => (
+      <a href={link.href} target={link.href.startsWith('http') ? '_blank' : undefined} rel={link.href.startsWith('http') ? 'noopener noreferrer' : undefined}>{link.label}</a>
+    ))}
+  </nav>
+</footer>

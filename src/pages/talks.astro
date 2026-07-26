@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SiteNav from '../components/SiteNav.astro';
+import SectionHeading from '../components/SectionHeading.astro';
+import TalkCard from '../components/TalkCard.astro';
+import Footer from '../components/Footer.astro';
+import { talks } from '../data/site';
+---
+
+<BaseLayout title="Talks" description="Talks and presentations by Rohit Mishra on commerce, payments, cross-border, and AI interfaces.">
+  <SiteNav />
+  <main class="page-shell">
+    <SectionHeading
+      eyebrow="Speaking"
+      title="Talks and presentations"
+      description="Public conversations on commerce infrastructure, local payment methods, global expansion, and AI-powered shopping."
+    />
+    <div class="talk-list talk-list-large">
+      {talks.map((talk) => <TalkCard {...talk} />)}
+    </div>
+  </main>
+  <Footer />
+</BaseLayout>
