@@ -67,6 +67,11 @@ export const media = [
     source: 'One to One',
     title: 'Why payments are becoming an infrastructure issue in commerce',
     href: 'https://www.onetoone.de/artikel/db/618151bma.html'
+  },
+  {
+    source: 'neuhandeln',
+    title: 'Why payments are becoming an infrastructure issue in commerce',
+    href: 'https://www.neuhandeln.de/gastbeitraege/db/618151bma.html'
   }
 ] as const;
 
