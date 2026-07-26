@@ -49,9 +49,10 @@ import { media, profile, talks, workThemes } from '../data/site';
     </section>
 
     <section class="section-shell media-section">
-      <div class="media-heading">
-        <p class="eyebrow">Media</p>
-      </div>
+      <SectionHeading
+        eyebrow="Media"
+        title="In the press."
+      />
       <div class="media-list">
         {media.map((item) => (
           <a class="media-item" href={item.href} target="_blank" rel="noopener noreferrer">
