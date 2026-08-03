@@ -10,14 +10,14 @@ interface Props {
 }
 
 const {
-  title = 'Rohit Mishra',
+  title = 'Rohit Mishra - VP Product, Shopify',
   description = 'Rohit Mishra is VP Product at Shopify, building commerce infrastructure across payments, tax, risk, money movement, and cross-border commerce.',
   image = '/images/og/home.png',
   imageAlt = 'Rohit Mishra — VP Product, Shopify. Commerce infrastructure for merchants.',
   noindex = false
 } = Astro.props;
 
-const fullTitle = title === 'Rohit Mishra' ? title : `${title} — Rohit Mishra`;
+const fullTitle = title === 'Rohit Mishra - VP Product, Shopify' ? title : `${title} — Rohit Mishra`;
 const site = Astro.site ?? new URL('https://www.rohitmishra.me');
 const siteUrl = site.toString().replace(/\/$/, '');
 const canonical = new URL(Astro.url.pathname, site).toString();
