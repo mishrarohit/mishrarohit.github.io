@@ -52,7 +52,13 @@ const structuredData = [
     '@id': `${siteUrl}/#person`,
     name: profile.name,
     url: `${siteUrl}/`,
-    image: new URL('/images/rohit.jpeg', site).toString(),
+    image: {
+      '@type': 'ImageObject',
+      url: new URL('/images/rohit-square.jpg', site).toString(),
+      width: 768,
+      height: 768,
+      caption: 'Rohit Mishra, VP Product at Shopify'
+    },
     jobTitle: 'VP Product',
     worksFor: {
       '@type': 'Organization',
@@ -111,6 +117,8 @@ const structuredData = [
     {noindex && <meta name="robots" content="noindex, follow" />}
     <link rel="canonical" href={canonical} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
