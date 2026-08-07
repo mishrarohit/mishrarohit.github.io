@@ -1,5 +1,5 @@
 ---
-import { media, profile, talks, workThemes } from '../data/site';
+import { analytics, media, profile, talks, workThemes } from '../data/site';
 
 interface Props {
   title?: string;
@@ -24,6 +24,8 @@ const canonical = new URL(Astro.url.pathname, site).toString();
 const ogImage = new URL(image, site).toString();
 const sameAs = profile.socials.filter((link) => link.href.startsWith('http')).map((link) => link.href);
 const email = profile.email.replace('mailto:', '');
+const gaId = analytics.googleMeasurementId;
+const enableAnalytics = import.meta.env.PROD && Boolean(gaId);
 
 const structuredData = [
   {
@@ -147,6 +149,18 @@ const structuredData = [
 
     <meta name="theme-color" content="#fbf7ef" />
     <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+
+    {enableAnalytics && (
+      <>
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}></script>
+        <script is:inline define:vars={{ gaId }}>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', gaId);
+        </script>
+      </>
+    )}
 
     <title>{fullTitle}</title>
   </head>

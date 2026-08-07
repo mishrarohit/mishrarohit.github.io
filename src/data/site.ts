@@ -1,3 +1,7 @@
+export const analytics = {
+  googleMeasurementId: 'G-GNB0S5V6MW'
+} as const;
+
 export const profile = {
   name: 'Rohit Mishra',
   role: 'VP Product at Shopify',
