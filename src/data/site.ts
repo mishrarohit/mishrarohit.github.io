@@ -48,6 +48,11 @@ export const workThemes = [
 
 export const media = [
   {
+    source: 'American Banker',
+    title: 'How Shopify and Meta are diving deeper into checkout',
+    href: 'https://www.americanbanker.com/payments/news/shopify-adds-meta-muse-to-agentic-ai-strategy'
+  },
+  {
     source: 'FinTech Magazine',
     title: 'Shopify: Redefining Payments Infrastructure for Merchants',
     href: 'https://fintechmagazine.com/news/shopify-redefining-payments-infrastructure-for-merchants'
