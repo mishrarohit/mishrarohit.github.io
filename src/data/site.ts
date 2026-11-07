@@ -81,6 +81,16 @@ export const media = [
 
 export const talks = [
   {
+    title: 'Agents Are the New Users',
+    event: 'The London Fintech Podcast',
+    year: '2026',
+    visual: 'Agentic',
+    tone: 'blue',
+    description: 'What it takes for AI agents to shop and pay, from product data and checkout wallets to trust, fraud, and liability.',
+    href: 'https://www.youtube.com/watch?v=LlDMdHucIdc',
+    embed: 'https://www.youtube-nocookie.com/embed/LlDMdHucIdc'
+  },
+  {
     title: 'Agentic Commerce',
     event: 'Stripe Tour New York',
     year: '2025',

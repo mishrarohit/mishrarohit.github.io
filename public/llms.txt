@@ -19,6 +19,7 @@ Canonical site: https://www.rohitmishra.me/
 
 ## Talks
 
+- Agents Are the New Users — The London Fintech Podcast, 2026 — https://www.youtube.com/watch?v=LlDMdHucIdc
 - Agentic Commerce — Stripe Tour New York, 2025 — https://www.youtube.com/watch?v=_Gi3to6aUCQ&t=1539s
 - Fast, Cheap, Global: Local Payment Methods — Stripe Sessions, 2025 — https://stripe.com/en-ca/sessions/2025/fast-cheap-global
 - Shopify Markets — Shopify Editions, June 2024 — https://www.youtube.com/watch?v=zLvyi57t3Xg
