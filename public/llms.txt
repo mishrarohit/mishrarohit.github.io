@@ -27,6 +27,7 @@ Canonical site: https://www.rohitmishra.me/
 
 ## Media
 
+- Mastercard — Small business has entered the holiday chat — https://www.mastercard.com/us/en/news-and-trends/stories/2026/shopify-holiday-shopping-small-business.html
 - FinTech Magazine — Shopify: Redefining Payments Infrastructure for Merchants — https://fintechmagazine.com/news/shopify-redefining-payments-infrastructure-for-merchants
 - Linux Foundation — Announcing x402 Foundation — https://www.linuxfoundation.org/press/linux-foundation-is-launching-the-x402-foundation-and-welcoming-the-contribution-of-the-x402-protocol
 - Open Standard — Introducing Open USD — https://joinopenstandard.com/blog/introducing-open-usd

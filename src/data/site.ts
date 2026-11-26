@@ -48,6 +48,11 @@ export const workThemes = [
 
 export const media = [
   {
+    source: 'Mastercard',
+    title: 'Small business has entered the holiday chat',
+    href: 'https://www.mastercard.com/us/en/news-and-trends/stories/2026/shopify-holiday-shopping-small-business.html'
+  },
+  {
     source: 'American Banker',
     title: 'How Shopify and Meta are diving deeper into checkout',
     href: 'https://www.americanbanker.com/payments/news/shopify-adds-meta-muse-to-agentic-ai-strategy'
